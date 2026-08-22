@@ -1,0 +1,182 @@
+[
+    {
+        "id": "plc-01",
+        "company_name": "Tata Steel",
+        "job_title": "Operations & Data Associate",
+        "sector": "Manufacturing & Automation",
+        "location": "Jamshedpur / Remote",
+        "pay": "\u20b925,000 - \u20b950,000 a month",
+        "job_type": "Full-time",
+        "qualifications_required": [
+            "B.Tech",
+            "B.Sc"
+        ],
+        "skills_and_competencies": [
+            "mechanical",
+            "data analysis",
+            "python",
+            "metallurgy"
+        ],
+        "work_location_type": "In person",
+        "description": "Work with cross-functional plant engineering and analytics teams to monitor high-efficiency blast furnace operations, analyze real-time telemetry metrics using Python, and optimize automated manufacturing workflows."
+    },
+    {
+        "id": "plc-02",
+        "company_name": "Infosys",
+        "job_title": "Associate Software Engineer",
+        "sector": "IT & Software Services",
+        "location": "Bangalore, Karnataka",
+        "pay": "\u20b935,000 - \u20b960,000 a month",
+        "job_type": "Full-time",
+        "qualifications_required": [
+            "B.Tech",
+            "BCA",
+            "B.Sc"
+        ],
+        "skills_and_competencies": [
+            "python",
+            "java",
+            "data analysis",
+            "web development",
+            "sql"
+        ],
+        "work_location_type": "Hybrid",
+        "description": "Develop and maintain robust enterprise web solutions, design scalable RESTful APIs, and contribute to cloud deployment pipelines for Fortune 500 global clients."
+    },
+    {
+        "id": "plc-03",
+        "company_name": "Reliance Industries",
+        "job_title": "Digital Growth & Analytics Trainee",
+        "sector": "Energy & Telecom",
+        "location": "Navi Mumbai, Maharashtra",
+        "pay": "\u20b930,000 - \u20b955,000 a month",
+        "job_type": "Full-time",
+        "qualifications_required": [
+            "B.Tech",
+            "B.Com",
+            "BBA"
+        ],
+        "skills_and_competencies": [
+            "python",
+            "marketing",
+            "data analysis",
+            "finance",
+            "power bi"
+        ],
+        "work_location_type": "In person",
+        "description": "Assist product managers in customer lifecycle modeling, run predictive churn analytics on telecom data sets, and collaborate on omni-channel retail growth campaigns."
+    },
+    {
+        "id": "plc-04",
+        "company_name": "HDFC Bank",
+        "job_title": "Credit & Financial Risk Analyst",
+        "sector": "Banking & Financial Services",
+        "location": "Mumbai, Maharashtra",
+        "pay": "\u20b928,000 - \u20b952,000 a month",
+        "job_type": "Full-time",
+        "qualifications_required": [
+            "B.Com",
+            "BBA",
+            "BA"
+        ],
+        "skills_and_competencies": [
+            "finance",
+            "excel",
+            "data analysis",
+            "economics",
+            "financial modeling"
+        ],
+        "work_location_type": "In person",
+        "description": "Perform financial underwriting, evaluate credit histories of SME commercial portfolios, prepare financial health dashboards, and ensure regulatory compliance."
+    },
+    {
+        "id": "plc-05",
+        "company_name": "Mahindra & Mahindra",
+        "job_title": "EV Systems & Quality Trainee",
+        "sector": "Automotive & Clean Mobility",
+        "location": "Pune, Maharashtra",
+        "pay": "\u20b932,000 - \u20b958,000 a month",
+        "job_type": "Full-time",
+        "qualifications_required": [
+            "B.Tech",
+            "B.E."
+        ],
+        "skills_and_competencies": [
+            "mechanical",
+            "electrical",
+            "supply chain",
+            "autocad",
+            "matlab"
+        ],
+        "work_location_type": "In person",
+        "description": "Participate in EV powertrain testing, CAD modeling of automotive structural chassis, and supply chain quality audits for next-gen electric passenger vehicles."
+    },
+    {
+        "id": "plc-06",
+        "company_name": "Larsen & Toubro (L&T)",
+        "job_title": "Graduate Infrastructure Planner",
+        "sector": "Civil & Heavy Infrastructure",
+        "location": "Chennai, Tamil Nadu",
+        "pay": "\u20b930,000 - \u20b954,000 a month",
+        "job_type": "Full-time",
+        "qualifications_required": [
+            "B.Tech",
+            "B.E."
+        ],
+        "skills_and_competencies": [
+            "civil",
+            "electrical",
+            "project management",
+            "autocad",
+            "primavera"
+        ],
+        "work_location_type": "In person",
+        "description": "Support on-site smart city transit projects, coordinate construction milestones, manage structural design compliance, and liaise with government stakeholders."
+    },
+    {
+        "id": "plc-07",
+        "company_name": "Bharat Electronics (BEL)",
+        "job_title": "Embedded Hardware & Firmware Engineer",
+        "sector": "Defense & Strategic Electronics",
+        "location": "Bangalore, Karnataka",
+        "pay": "\u20b938,000 - \u20b965,000 a month",
+        "job_type": "Full-time",
+        "qualifications_required": [
+            "B.Tech",
+            "B.E."
+        ],
+        "skills_and_competencies": [
+            "electrical",
+            "electronics",
+            "python",
+            "hardware",
+            "c++",
+            "embedded c"
+        ],
+        "work_location_type": "In person",
+        "description": "Design firmware for defense communication hardware, debug PCB microcontrollers, and develop automated signal processing testing routines."
+    },
+    {
+        "id": "plc-08",
+        "company_name": "ITC Limited",
+        "job_title": "Supply Chain & Operations Executive",
+        "sector": "FMCG & Agri-Business",
+        "location": "Kolkata / Delhi NCR",
+        "pay": "\u20b926,000 - \u20b948,000 a month",
+        "job_type": "Full-time",
+        "qualifications_required": [
+            "BBA",
+            "B.Com",
+            "B.Tech"
+        ],
+        "skills_and_competencies": [
+            "marketing",
+            "supply chain",
+            "data analysis",
+            "sales",
+            "logistics"
+        ],
+        "work_location_type": "In person",
+        "description": "Coordinate warehouse inventory movement, evaluate vendor turnaround SLA performance, and implement data-driven demand forecasting algorithms across regional distribution hubs."
+    }
+]

@@ -1,0 +1,12 @@
+serviceAccountKey.json
+gemini_config.json
+
+__pycache__/
+*.py[cod]
+
+cache/
+*.db
+
+.env
+.venv/
+venv/

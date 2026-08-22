@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placements & Career Drives — SkillBridge</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --saffron: #FF9933;
+            --saffron-deep: #E67A18;
+            --green: #138808;
+            --green-deep: #0D6305;
+            --navy: #002147;
+            --navy-light: #0A3668;
+            --navy-accent: #1D4ED8;
+            --bg-ivory: #F8F9FA;
+            --card-bg: #FFFFFF;
+            --text-dark: #1E293B;
+            --text-muted: #64748B;
+            --border-color: #E2E8F0;
+            --pill-bg: #F1F5F9;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--bg-ivory);
+            color: var(--text-dark);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+        }
+
+        /* Tricolor Top Ribbon */
+        .tricolor-ribbon {
+            height: 5px;
+            background: linear-gradient(to right, #FF9933 33.33%, #FFFFFF 33.33%, #FFFFFF 66.66%, #138808 66.66%);
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+        }
+
+        /* Top Navigation Header */
+        .top-nav {
+            position: fixed;
+            top: 5px;
+            left: 0;
+            right: 0;
+            z-index: 90;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 36px;
+            background: #FFFFFF;
+            border-bottom: 1px solid var(--border-color);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+        }
+
+        .nav-brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 700;
+            color: var(--navy);
+            font-size: 16px;
+            text-decoration: none;
+        }
+
+        .emblem-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--saffron);
+            box-shadow: 0 0 8px var(--saffron);
+        }
+
+        .nav-actions {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .btn-nav-home {
+            text-decoration: none;
+            background: #F1F5F9;
+            color: var(--navy);
+            padding: 7px 16px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        .btn-nav-home:hover {
+            background: #E2E8F0;
+        }
+
+        .btn-logout {
+            text-decoration: none;
+            background: #B3261E;
+            color: #FFFFFF;
+            padding: 7px 16px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 700;
+            transition: all 0.2s ease;
+        }
+
+        .btn-logout:hover {
+            background: #8E1F18;
+        }
+
+        /* Main Container */
+        .main-container {
+            max-width: 1360px;
+            margin: 0 auto;
+            padding: 75px 24px 40px;
+            flex: 1;
+            width: 100%;
+        }
+
+        /* Search & Filter Bar */
+        .search-filter-section {
+            background: #FFFFFF;
+            padding: 16px 20px;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            margin-bottom: 22px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            flex-wrap: wrap;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+        }
+
+        .search-input-wrapper {
+            position: relative;
+            flex: 1;
+            min-width: 280px;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 10px 14px 10px 38px;
+            border-radius: 8px;
+            border: 1.5px solid var(--border-color);
+            font-size: 14px;
+            font-family: inherit;
+            transition: all 0.2s;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--navy);
+            box-shadow: 0 0 0 3px rgba(0, 33, 71, 0.1);
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            font-size: 15px;
+        }
+
+        .filter-tags {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .filter-tag-btn {
+            background: #F1F5F9;
+            border: 1px solid transparent;
+            color: #475569;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 12.5px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .filter-tag-btn:hover {
+            background: #E2E8F0;
+            color: var(--navy);
+        }
+
+        .filter-tag-btn.active {
+            background: var(--navy);
+            color: #FFFFFF;
+        }
+
+        /* Layout Grid */
+        .job-board-layout {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 24px;
+            align-items: flex-start;
+            transition: grid-template-columns 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+
+        /* When Detail Panel is OPEN: 2 Columns */
+        .job-board-layout.panel-open {
+            grid-template-columns: 460px 1fr;
+        }
+
+        @media (max-width: 980px) {
+            .job-board-layout.panel-open {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* ------------------------------------------------------------- */
+        /* LEFT PANE: Placement Listings Cards                           */
+        /* ------------------------------------------------------------- */
+        .placement-list-pane {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 16px;
+            max-height: calc(100vh - 175px);
+            overflow-y: auto;
+            padding-right: 4px;
+        }
+
+        /* When panel is open, left pane becomes a single vertical stack */
+        .job-board-layout.panel-open .placement-list-pane {
+            grid-template-columns: 1fr;
+        }
+
+        .placement-list-pane::-webkit-scrollbar {
+            width: 6px;
+        }
+        .placement-list-pane::-webkit-scrollbar-thumb {
+            background: #CBD5E1;
+            border-radius: 6px;
+        }
+
+        .placement-card {
+            background: #FFFFFF;
+            border-radius: 12px;
+            border: 1.5px solid var(--border-color);
+            padding: 18px 20px;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            position: relative;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+            user-select: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .placement-card:hover {
+            border-color: #94A3B8;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+        }
+
+        .placement-card.active {
+            border-color: var(--navy);
+            box-shadow: 0 0 0 2px var(--navy), 0 6px 18px rgba(0, 33, 71, 0.12);
+            background: #FCFDFE;
+        }
+
+        .card-top-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        .badge-easily-apply {
+            background: #EFF6FF;
+            color: #1D4ED8;
+            font-size: 11px;
+            font-weight: 700;
+            padding: 3px 8px;
+            border-radius: 4px;
+            letter-spacing: 0.2px;
+        }
+
+        .badge-live-source {
+            background: #F0FDF4;
+            color: #166534;
+            font-size: 11px;
+            font-weight: 700;
+            padding: 3px 8px;
+            border-radius: 4px;
+        }
+
+        .btn-bookmark {
+            background: transparent;
+            border: none;
+            color: #94A3B8;
+            cursor: pointer;
+            font-size: 16px;
+            padding: 4px;
+            transition: color 0.2s, transform 0.2s;
+        }
+
+        .btn-bookmark:hover {
+            color: var(--navy);
+            transform: scale(1.15);
+        }
+
+        .btn-bookmark.bookmarked {
+            color: var(--saffron-deep);
+        }
+
+        .card-job-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--navy);
+            margin-bottom: 4px;
+            line-height: 1.3;
+        }
+
+        .card-company-name {
+            font-size: 13.5px;
+            color: #334155;
+            font-weight: 600;
+            margin-bottom: 2px;
+        }
+
+        .card-location {
+            font-size: 12.5px;
+            color: var(--text-muted);
+            margin-bottom: 12px;
+        }
+
+        .card-pills-row {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+
+        .pill-badge {
+            background: var(--pill-bg);
+            color: #475569;
+            font-size: 11.5px;
+            font-weight: 600;
+            padding: 4px 8px;
+            border-radius: 4px;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        /* ------------------------------------------------------------- */
+        /* RIGHT PANE: Selected Placement Detail View                    */
+        /* ------------------------------------------------------------- */
+        .placement-detail-pane {
+            background: #FFFFFF;
+            border-radius: 14px;
+            border: 1.5px solid var(--border-color);
+            padding: 28px 32px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            position: sticky;
+            top: 75px;
+            max-height: calc(100vh - 105px);
+            overflow-y: auto;
+            display: none;
+            animation: fadeInSlide 0.3s ease;
+        }
+
+        @keyframes fadeInSlide {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .job-board-layout.panel-open .placement-detail-pane {
+            display: block;
+        }
+
+        .placement-detail-pane::-webkit-scrollbar {
+            width: 6px;
+        }
+        .placement-detail-pane::-webkit-scrollbar-thumb {
+            background: #CBD5E1;
+            border-radius: 6px;
+        }
+
+        .detail-top-nav-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .detail-source-tag {
+            font-size: 12px;
+            font-weight: 700;
+            color: #475569;
+            background: #F1F5F9;
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+
+        .btn-close-detail {
+            background: #F1F5F9;
+            border: none;
+            color: #475569;
+            font-size: 16px;
+            font-weight: 700;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
+        }
+
+        .btn-close-detail:hover {
+            background: #E2E8F0;
+            color: #B3261E;
+        }
+
+        .detail-header-title {
+            font-size: 23px;
+            font-weight: 800;
+            color: var(--navy);
+            margin-bottom: 6px;
+            line-height: 1.3;
+        }
+
+        .detail-sub-meta {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            color: var(--text-muted);
+            margin-bottom: 18px;
+            flex-wrap: wrap;
+        }
+
+        .company-link {
+            color: var(--navy-accent);
+            font-weight: 700;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .company-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Action Buttons Row */
+        .detail-actions-row {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 22px;
+            padding-bottom: 18px;
+            border-bottom: 1px solid var(--border-color);
+            flex-wrap: wrap;
+        }
+
+        /* DISABLED APPLY BUTTON AS REQUESTED */
+        .btn-apply-disabled {
+            background: #94A3B8;
+            color: #FFFFFF;
+            border: none;
+            padding: 11px 22px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 700;
+            cursor: not-allowed;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            opacity: 0.85;
+            user-select: none;
+        }
+
+        .btn-external-link {
+            background: var(--navy);
+            color: #FFFFFF;
+            text-decoration: none;
+            padding: 11px 20px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 700;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s ease;
+        }
+
+        .btn-external-link:hover {
+            background: var(--navy-light);
+            transform: translateY(-1px);
+        }
+
+        .btn-icon-action {
+            background: #F1F5F9;
+            border: 1px solid var(--border-color);
+            color: var(--navy);
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 0.2s;
+        }
+
+        .btn-icon-action:hover {
+            background: #E2E8F0;
+        }
+
+        /* Dynamic Detail Sections */
+        .detail-section {
+            margin-bottom: 20px;
+        }
+
+        .detail-section-heading {
+            font-size: 14.5px;
+            font-weight: 700;
+            color: var(--navy);
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .skills-chips-wrapper {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-top: 4px;
+        }
+
+        .skill-chip {
+            background: #EFF6FF;
+            color: #1E40AF;
+            border: 1px solid #DBEAFE;
+            padding: 4px 11px;
+            border-radius: 16px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+
+        .qualification-chip {
+            background: #FEF3C7;
+            color: #92400E;
+            border: 1px solid #FDE68A;
+            padding: 4px 11px;
+            border-radius: 16px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .job-description-container {
+            font-size: 13.5px;
+            line-height: 1.65;
+            color: #334155;
+            background: #F8FAFC;
+            padding: 18px 20px;
+            border-radius: 10px;
+            border: 1px solid var(--border-color);
+            margin-top: 6px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .job-description-container p {
+            margin-bottom: 10px;
+        }
+        .job-description-container ul {
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+        .job-description-container li {
+            margin-bottom: 4px;
+        }
+
+        /* Toast */
+        .toast-notification {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            background: var(--navy);
+            color: #FFFFFF;
+            padding: 12px 20px;
+            border-radius: 8px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 13.5px;
+            font-weight: 600;
+            z-index: 300;
+            transform: translateY(80px);
+            opacity: 0;
+            transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+
+        .toast-notification.show {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Tricolor Ribbon -->
+    <div class="tricolor-ribbon"></div>
+
+    <!-- Top Navigation -->
+    <nav class="top-nav">
+        <a href="/" class="nav-brand">
+            <span class="emblem-dot"></span>
+            <span>SkillBridge — Live Placements & Career Drives</span>
+        </a>
+        <div class="nav-actions">
+            <a href="/" class="btn-nav-home">← Back to Home</a>
+            <a href="/profile" class="btn-nav-home" style="border:1.5px solid var(--navy); font-weight:700;"><span>👤</span> Profile</a>
+            <a href="/logout" class="btn-logout">Logout</a>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <main class="main-container">
+
+        <!-- Search & Filter Bar -->
+        <div class="search-filter-section">
+            <div class="search-input-wrapper">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="jobSearchInput" class="search-input" placeholder="Search by job title, company, location, or skills..." onkeyup="filterJobs()">
+            </div>
+            <div class="filter-tags">
+                <button class="filter-tag-btn active" onclick="setSectorFilter('All', this)">All Openings ({{ placements | length }})</button>
+                <button class="filter-tag-btn" onclick="setSectorFilter('Technology', this)">IT & Tech</button>
+                <button class="filter-tag-btn" onclick="setSectorFilter('Engineering', this)">Engineering</button>
+                <button class="filter-tag-btn" onclick="setSectorFilter('Data Science', this)">Data & AI</button>
+                <button class="filter-tag-btn" onclick="setSectorFilter('Finance', this)">Finance</button>
+            </div>
+        </div>
+
+        <!-- 2-Pane Job Board Layout (Initially closed right panel until a card is clicked) -->
+        <div class="job-board-layout" id="jobBoardLayout">
+
+            <!-- LEFT PANE: Placement Listings Cards -->
+            <div class="placement-list-pane" id="placementListContainer">
+                {% for p in placements %}
+                <div class="placement-card" 
+                     id="card-{{ p.id }}" 
+                     onclick="selectPlacement('{{ p.id }}')"
+                     data-id="{{ p.id }}"
+                     data-company="{{ p.company_name | lower }}"
+                     data-title="{{ p.job_title | lower }}"
+                     data-sector="{{ p.sector | lower }}"
+                     data-location="{{ p.location | lower }}"
+                     data-skills="{{ p.skills_and_competencies | join(' ') | lower }}">
+                    
+                    <div class="card-top-row">
+                        {% if p.source and 'PMIS' in p.source %}
+                        <span class="badge-easily-apply">PMIS Partner</span>
+                        {% else %}
+                        <span class="badge-live-source">Live Feed</span>
+                        {% endif %}
+                        <button class="btn-bookmark" onclick="toggleBookmark(event, this)">🔖</button>
+                    </div>
+
+                    <div>
+                        <h3 class="card-job-title">{{ p.job_title }}</h3>
+                        <div class="card-company-name">{{ p.company_name }}</div>
+                        <div class="card-location">📍 {{ p.location }}</div>
+                    </div>
+
+                    <div class="card-pills-row">
+                        {% if p.pay %}
+                        <span class="pill-badge">💰 {{ p.pay }}</span>
+                        {% endif %}
+                        {% if p.job_type %}
+                        <span class="pill-badge">💼 {{ p.job_type }}</span>
+                        {% endif %}
+                        {% if p.work_location_type %}
+                        <span class="pill-badge">🏢 {{ p.work_location_type }}</span>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+            <!-- RIGHT PANE: Dynamic Selected Placement Detail View (Opens on card click) -->
+            <div class="placement-detail-pane" id="placementDetailView">
+                <!-- Dynamically Rendered via JS based on selected placement -->
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Toast Notification -->
+    <div id="applicationToast" class="toast-notification">
+        <span>ℹ️</span>
+        <span id="toastMessage">Notice</span>
+    </div>
+
+    <!-- Data Injection for Client Side Interaction -->
+    <script id="placementsData" type="application/json">
+        {{ placements | tojson }}
+    </script>
+
+    <script>
+        const placements = JSON.parse(document.getElementById('placementsData').textContent);
+        let selectedPlacementId = null;
+        let activeSector = 'All';
+
+        function renderDetailView(placement) {
+            const container = document.getElementById('placementDetailView');
+            const layout = document.getElementById('jobBoardLayout');
+
+            if (!placement) {
+                layout.classList.remove('panel-open');
+                container.style.display = 'none';
+                return;
+            }
+
+            // Open 2-pane layout
+            layout.classList.add('panel-open');
+            container.style.display = 'block';
+
+            // 1. Dynamic Badges List
+            let badgesHtml = '';
+            if (placement.pay) {
+                badgesHtml += `<span class="pill-badge" style="background:#EFF6FF; color:#1D4ED8; font-weight:700;">💰 ${escapeHtml(placement.pay)}</span>`;
+            }
+            if (placement.job_type) {
+                badgesHtml += `<span class="pill-badge">💼 ${escapeHtml(placement.job_type)}</span>`;
+            }
+            if (placement.work_location_type) {
+                badgesHtml += `<span class="pill-badge">📍 ${escapeHtml(placement.work_location_type)}</span>`;
+            }
+            if (placement.sector) {
+                badgesHtml += `<span class="pill-badge">🏢 ${escapeHtml(placement.sector)}</span>`;
+            }
+            if (placement.posted_date) {
+                badgesHtml += `<span class="pill-badge">🕒 Posted: ${escapeHtml(placement.posted_date)}</span>`;
+            }
+
+            // 2. Dynamic Qualifications Section
+            let qualificationsSection = '';
+            if (placement.qualifications_required && placement.qualifications_required.length > 0) {
+                const qualChips = placement.qualifications_required.map(q => `<span class="qualification-chip">${escapeHtml(q)}</span>`).join('');
+                qualificationsSection = `
+                    <div class="detail-section">
+                        <div class="detail-section-heading"><span>🎓</span> Required Qualifications</div>
+                        <div class="skills-chips-wrapper">${qualChips}</div>
+                    </div>
+                `;
+            }
+
+            // 3. Dynamic Skills & Competencies Section
+            let skillsSection = '';
+            if (placement.skills_and_competencies && placement.skills_and_competencies.length > 0) {
+                const skillChips = placement.skills_and_competencies.map(s => `<span class="skill-chip">${escapeHtml(s)}</span>`).join('');
+                skillsSection = `
+                    <div class="detail-section">
+                        <div class="detail-section-heading"><span>⚡</span> Skills & Competencies</div>
+                        <div class="skills-chips-wrapper">${skillChips}</div>
+                    </div>
+                `;
+            }
+
+            // 4. Dynamic External Job Link
+            let externalLinkBtn = '';
+            if (placement.url && placement.url !== '#') {
+                externalLinkBtn = `
+                    <a href="${escapeHtml(placement.url)}" target="_blank" rel="noopener noreferrer" class="btn-external-link">
+                        <span>🔗</span> View Official Posting ↗
+                    </a>
+                `;
+            }
+
+            // 5. Build Dynamic Right Pane HTML
+            container.innerHTML = `
+                <div class="detail-top-nav-bar">
+                    <span class="detail-source-tag">${escapeHtml(placement.source || 'Aggregator Listing')}</span>
+                    <button class="btn-close-detail" title="Close details panel" onclick="closeDetailPanel()">✕</button>
+                </div>
+
+                <h1 class="detail-header-title">${escapeHtml(placement.job_title)}</h1>
+                <div class="detail-sub-meta">
+                    <span class="company-link">${escapeHtml(placement.company_name)}</span>
+                    <span>•</span>
+                    <span>📍 ${escapeHtml(placement.location)}</span>
+                </div>
+
+                <!-- Action Row with DISABLED Apply Button -->
+                <div class="detail-actions-row">
+                    <button class="btn-apply-disabled" disabled title="Applications are view-only on this portal">
+                        <span>🔒</span> Apply with Resume (Disabled)
+                    </button>
+                    ${externalLinkBtn}
+                    <button class="btn-icon-action" title="Bookmark" onclick="toggleBookmark(event, this)">🔖</button>
+                    <button class="btn-icon-action" title="Share" onclick="sharePlacement('${escapeHtml(placement.job_title)}')">🔗</button>
+                </div>
+
+                <!-- Quick Badges -->
+                <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px;">
+                    ${badgesHtml}
+                </div>
+
+                <!-- Location Details -->
+                <div class="detail-section">
+                    <div class="detail-section-heading"><span>📍</span> Location & Workplace Setup</div>
+                    <div style="font-size: 14px; color: #475569; font-weight: 600;">
+                        ${escapeHtml(placement.location)} (${escapeHtml(placement.work_location_type || 'Flexible')})
+                    </div>
+                </div>
+
+                <!-- Qualifications -->
+                ${qualificationsSection}
+
+                <!-- Skills -->
+                ${skillsSection}
+
+                <!-- Full Job Description -->
+                <div class="detail-section">
+                    <div class="detail-section-heading"><span>📝</span> Job Description & Key Insights</div>
+                    <div class="job-description-container">
+                        ${placement.description}
+                    </div>
+                </div>
+            `;
+
+            // Scroll detail pane to top
+            container.scrollTop = 0;
+        }
+
+        function selectPlacement(id) {
+            selectedPlacementId = id;
+            document.querySelectorAll('.placement-card').forEach(card => {
+                card.classList.remove('active');
+            });
+            const activeCard = document.getElementById(`card-${id}`);
+            if (activeCard) activeCard.classList.add('active');
+
+            const item = placements.find(p => p.id === id);
+            renderDetailView(item);
+        }
+
+        function closeDetailPanel() {
+            selectedPlacementId = null;
+            document.querySelectorAll('.placement-card').forEach(card => {
+                card.classList.remove('active');
+            });
+            const layout = document.getElementById('jobBoardLayout');
+            const container = document.getElementById('placementDetailView');
+            layout.classList.remove('panel-open');
+            container.style.display = 'none';
+        }
+
+        function filterJobs() {
+            const query = document.getElementById('jobSearchInput').value.toLowerCase().trim();
+            const cards = document.querySelectorAll('.placement-card');
+
+            cards.forEach(card => {
+                const company = card.getAttribute('data-company') || '';
+                const title = card.getAttribute('data-title') || '';
+                const sector = card.getAttribute('data-sector') || '';
+                const location = card.getAttribute('data-location') || '';
+                const skills = card.getAttribute('data-skills') || '';
+
+                const matchesQuery = company.includes(query) || title.includes(query) || skills.includes(query) || location.includes(query);
+                const matchesSector = activeSector === 'All' || sector.includes(activeSector.toLowerCase());
+
+                if (matchesQuery && matchesSector) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        function setSectorFilter(sector, btn) {
+            activeSector = sector;
+            document.querySelectorAll('.filter-tag-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            filterJobs();
+        }
+
+        function toggleBookmark(event, btn) {
+            event.stopPropagation();
+            btn.classList.toggle('bookmarked');
+            if (btn.classList.contains('bookmarked')) {
+                showToast("Placement saved to your bookmarks!");
+            } else {
+                showToast("Placement removed from bookmarks.");
+            }
+        }
+
+        function sharePlacement(title) {
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(window.location.href);
+                showToast(`Share link for "${title}" copied to clipboard!`);
+            } else {
+                showToast(`Link ready to share for ${title}`);
+            }
+        }
+
+        function showToast(msg) {
+            const toast = document.getElementById('applicationToast');
+            document.getElementById('toastMessage').textContent = msg;
+            toast.classList.add('show');
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3000);
+        }
+
+        function escapeHtml(str) {
+            if (!str) return '';
+            return String(str)
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#039;");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses & Study Material — SkillBridge</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --saffron: #FF9933;
+            --saffron-deep: #E67A18;
+            --saffron-glow: rgba(255, 153, 51, 0.35);
+            --green: #138808;
+            --green-deep: #0D6305;
+            --green-glow: rgba(19, 136, 8, 0.3);
+            --navy: #002147;
+            --navy-light: #0A3668;
+            --navy-glow: rgba(0, 33, 71, 0.3);
+            --bg-ivory: #F8F5EE;
+            --card-bg: #FFFFFF;
+            --text-dark: #1E293B;
+            --text-muted: #64748B;
+            --pdf-red: #D9383A;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--bg-ivory);
+            color: var(--text-dark);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        /* Tricolor Ribbon */
+        .tricolor-ribbon {
+            height: 5px;
+            background: linear-gradient(to right, #FF9933 33.33%, #FFFFFF 33.33%, #FFFFFF 66.66%, #138808 66.66%);
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+        }
+
+        /* Top Navigation Header */
+        .top-nav {
+            position: fixed;
+            top: 5px;
+            left: 0;
+            right: 0;
+            z-index: 90;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 36px;
+            background: rgba(248, 245, 238, 0.92);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(0, 33, 71, 0.08);
+        }
+
+        .nav-brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 700;
+            color: var(--navy);
+            font-size: 16px;
+            text-decoration: none;
+        }
+
+        .emblem-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--saffron);
+            box-shadow: 0 0 8px var(--saffron);
+        }
+
+        .nav-actions {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .btn-nav-home {
+            text-decoration: none;
+            background: #FFFFFF;
+            color: var(--navy);
+            border: 1px solid rgba(0, 33, 71, 0.15);
+            padding: 7px 16px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        .btn-nav-home:hover {
+            background: var(--navy);
+            color: #FFFFFF;
+        }
+
+        .btn-logout {
+            text-decoration: none;
+            background: #B3261E;
+            color: #FFFFFF;
+            padding: 7px 16px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 700;
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 8px rgba(179, 38, 30, 0.2);
+        }
+
+        .btn-logout:hover {
+            background: #8E1F18;
+        }
+
+        /* Main Container */
+        .main-container {
+            max-width: 1060px;
+            margin: 0 auto;
+            padding: 85px 24px 60px;
+            flex: 1;
+            width: 100%;
+        }
+
+        /* Page Hero Banner */
+        .hero-banner {
+            background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
+            color: #FFFFFF;
+            padding: 32px 36px;
+            border-radius: 18px;
+            border-bottom: 4px solid var(--saffron);
+            box-shadow: 0 12px 30px -8px rgba(0, 33, 71, 0.25);
+            margin-bottom: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-banner::after {
+            content: '📚';
+            position: absolute;
+            right: 25px;
+            bottom: 10px;
+            font-size: 80px;
+            opacity: 0.15;
+        }
+
+        .hero-banner h1 {
+            font-family: 'Cinzel', serif;
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+
+        .hero-banner p {
+            color: #CBD5E1;
+            font-size: 14.5px;
+            max-width: 650px;
+            line-height: 1.5;
+        }
+
+        /* Course Selector Tabs */
+        .category-switcher {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 32px;
+        }
+
+        .tab-btn {
+            flex: 1;
+            max-width: 320px;
+            padding: 16px 24px;
+            border-radius: 14px;
+            border: 2px solid transparent;
+            background: #FFFFFF;
+            color: var(--navy);
+            font-family: inherit;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            box-shadow: 0 4px 14px rgba(0, 33, 71, 0.08);
+            transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+            user-select: none;
+        }
+
+        .tab-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 22px rgba(0, 33, 71, 0.15);
+        }
+
+        .tab-btn.active.software-tab {
+            background: linear-gradient(135deg, #0A3668 0%, var(--navy) 100%);
+            color: #FFFFFF;
+            border-color: var(--saffron);
+            box-shadow: 0 10px 25px -5px rgba(0, 33, 71, 0.35);
+        }
+
+        .tab-btn.active.hardware-tab {
+            background: linear-gradient(135deg, #0D6305 0%, var(--green) 100%);
+            color: #FFFFFF;
+            border-color: #5CDB51;
+            box-shadow: 0 10px 25px -5px rgba(19, 136, 8, 0.35);
+        }
+
+        .tab-badge {
+            font-size: 11px;
+            padding: 3px 8px;
+            border-radius: 20px;
+            background: rgba(0, 33, 71, 0.08);
+            color: var(--navy);
+            font-weight: 700;
+        }
+
+        .tab-btn.active .tab-badge {
+            background: rgba(255, 255, 255, 0.25);
+            color: #FFFFFF;
+        }
+
+        /* Search & Info Row */
+        .section-header-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--navy);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .search-box {
+            position: relative;
+            min-width: 260px;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 9px 14px 9px 36px;
+            font-size: 13.5px;
+            border-radius: 10px;
+            border: 1.5px solid #CBD5E1;
+            background: #FFFFFF;
+            font-family: inherit;
+            transition: all 0.2s ease;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--navy);
+            box-shadow: 0 0 0 3px rgba(0, 33, 71, 0.1);
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 14px;
+            color: var(--text-muted);
+            pointer-events: none;
+        }
+
+        /* PDF Cards Grid */
+        .pdf-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+            gap: 22px;
+        }
+
+        .pdf-card {
+            background: #FFFFFF;
+            border-radius: 16px;
+            border: 1px solid rgba(0, 33, 71, 0.08);
+            box-shadow: 0 6px 18px rgba(0, 33, 71, 0.06);
+            padding: 22px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .pdf-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 14px 28px -6px rgba(0, 33, 71, 0.16);
+            border-color: rgba(0, 33, 71, 0.2);
+        }
+
+        .pdf-card-top {
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+            margin-bottom: 16px;
+        }
+
+        .pdf-icon-box {
+            width: 46px;
+            height: 46px;
+            border-radius: 12px;
+            background: #FEE2E2;
+            color: var(--pdf-red);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+            font-weight: 800;
+            flex-shrink: 0;
+            box-shadow: 0 3px 8px rgba(217, 56, 58, 0.15);
+        }
+
+        .pdf-info h3 {
+            font-size: 15.5px;
+            font-weight: 700;
+            color: var(--navy);
+            line-height: 1.35;
+            margin-bottom: 6px;
+        }
+
+        .pdf-meta {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 12px;
+            color: var(--text-muted);
+        }
+
+        .pdf-size-badge {
+            background: #F1F5F9;
+            padding: 2px 7px;
+            border-radius: 6px;
+            font-weight: 600;
+            color: #475569;
+        }
+
+        .pdf-card-actions {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 12px;
+            padding-top: 14px;
+            border-top: 1px solid #F1F5F9;
+        }
+
+        .btn-view-pdf {
+            background: var(--navy);
+            color: #FFFFFF;
+            text-decoration: none;
+            text-align: center;
+            padding: 9px 12px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            transition: all 0.2s ease;
+        }
+
+        .btn-view-pdf:hover {
+            background: var(--navy-light);
+            transform: translateY(-1px);
+        }
+
+        .btn-download-pdf {
+            background: #F8FAFC;
+            color: var(--navy);
+            border: 1px solid #CBD5E1;
+            text-decoration: none;
+            text-align: center;
+            padding: 9px 12px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            transition: all 0.2s ease;
+        }
+
+        .btn-download-pdf:hover {
+            background: #E2E8F0;
+            transform: translateY(-1px);
+        }
+
+        /* Empty State */
+        .empty-state {
+            background: #FFFFFF;
+            border-radius: 16px;
+            padding: 48px 24px;
+            text-align: center;
+            border: 1.5px dashed #CBD5E1;
+            grid-column: 1 / -1;
+        }
+
+        .empty-state-icon {
+            font-size: 48px;
+            margin-bottom: 12px;
+            opacity: 0.7;
+        }
+
+        .empty-state h3 {
+            font-size: 17px;
+            color: var(--navy);
+            margin-bottom: 6px;
+        }
+
+        .empty-state p {
+            font-size: 13.5px;
+            color: var(--text-muted);
+            max-width: 500px;
+            margin: 0 auto;
+            line-height: 1.5;
+        }
+
+        .empty-state code {
+            background: #F1F5F9;
+            padding: 3px 8px;
+            border-radius: 6px;
+            font-size: 12.5px;
+            color: var(--navy);
+            font-weight: 600;
+        }
+
+        /* Footer */
+        .site-footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+            color: var(--text-muted);
+            border-top: 1px solid rgba(0, 33, 71, 0.08);
+            background: #FFFFFF;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Tricolor Ribbon -->
+    <div class="tricolor-ribbon"></div>
+
+    <!-- Top Navigation Header -->
+    <header class="top-nav">
+        <a href="/" class="nav-brand">
+            <span class="emblem-dot"></span>
+            <span>SkillBridge — Courses</span>
+        </a>
+        <div class="nav-actions">
+            <a href="/" class="btn-nav-home">← Back to Home</a>
+            <a href="/profile" class="btn-nav-home" style="border:1.5px solid var(--navy); font-weight:700;"><span>👤</span> Profile</a>
+            <a href="/logout" class="btn-logout">Logout</a>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="main-container">
+
+        <!-- Page Hero Banner -->
+        <div class="hero-banner">
+            <h1>Courses & Study Material</h1>
+            <p>Access software and hardware curriculum, lecture notes, and training guides designed for PMIS candidates.</p>
+        </div>
+
+        <!-- 2 Category Selector Buttons (Software vs. Hardware) -->
+        <div class="category-switcher">
+            <button id="btnSoftware" class="tab-btn software-tab active" onclick="switchCategory('software')">
+                <span>💻</span>
+                <span>Software Courses</span>
+                <span class="tab-badge" id="badgeSoftware">{{ software_pdfs | length }} Files</span>
+            </button>
+            <button id="btnHardware" class="tab-btn hardware-tab" onclick="switchCategory('hardware')">
+                <span>⚙️</span>
+                <span>Hardware Courses</span>
+                <span class="tab-badge" id="badgeHardware">{{ hardware_pdfs | length }} Files</span>
+            </button>
+        </div>
+
+        <!-- Section Header & Filter Input -->
+        <div class="section-header-row">
+            <div class="section-title">
+                <span id="categoryIcon">💻</span>
+                <span id="categoryTitle">Software Engineering Modules</span>
+            </div>
+            <div class="search-box">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="searchInput" class="search-input" placeholder="Filter PDFs by name..." onkeyup="filterPDFs()">
+            </div>
+        </div>
+
+        <!-- 1. SOFTWARE PDFS GRID -->
+        <div id="softwareGrid" class="pdf-grid">
+            {% for pdf in software_pdfs %}
+            <div class="pdf-card" data-title="{{ pdf.title | lower }}" data-filename="{{ pdf.filename | lower }}">
+                <div class="pdf-card-top">
+                    <div class="pdf-icon-box">📄</div>
+                    <div class="pdf-info">
+                        <h3>{{ pdf.title }}</h3>
+                        <div class="pdf-meta">
+                            <span class="pdf-size-badge">{{ pdf.size }}</span>
+                            <span>• {{ pdf.filename }}</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pdf-card-actions">
+                    <a href="{{ pdf.url }}" target="_blank" class="btn-view-pdf">
+                        <span>👁️</span> View PDF
+                    </a>
+                    <a href="{{ pdf.url }}" download="{{ pdf.filename }}" class="btn-download-pdf">
+                        <span>⬇️</span> Download
+                    </a>
+                </div>
+            </div>
+            {% endfor %}
+
+            {% if not software_pdfs %}
+            <div class="empty-state">
+                <div class="empty-state-icon">📂</div>
+                <h3>No Software PDFs Found</h3>
+            </div>
+            {% endif %}
+        </div>
+
+        <!-- 2. HARDWARE PDFS GRID (Initially Hidden) -->
+        <div id="hardwareGrid" class="pdf-grid" style="display: none;">
+            {% for pdf in hardware_pdfs %}
+            <div class="pdf-card" data-title="{{ pdf.title | lower }}" data-filename="{{ pdf.filename | lower }}">
+                <div class="pdf-card-top">
+                    <div class="pdf-icon-box" style="background: #E0F2FE; color: #0284C7;">⚙️</div>
+                    <div class="pdf-info">
+                        <h3>{{ pdf.title }}</h3>
+                        <div class="pdf-meta">
+                            <span class="pdf-size-badge">{{ pdf.size }}</span>
+                            <span>• {{ pdf.filename }}</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pdf-card-actions">
+                    <a href="{{ pdf.url }}" target="_blank" class="btn-view-pdf" style="background: var(--green);">
+                        <span>👁️</span> View PDF
+                    </a>
+                    <a href="{{ pdf.url }}" download="{{ pdf.filename }}" class="btn-download-pdf">
+                        <span>⬇️</span> Download
+                    </a>
+                </div>
+            </div>
+            {% endfor %}
+
+            {% if not hardware_pdfs %}
+            <div class="empty-state">
+                <div class="empty-state-icon">📂</div>
+                <h3>No Hardware PDFs Found</h3>
+                <p>Add your hardware PDF documents into <code>static/courses/hardware/</code> and they will appear here automatically.</p>
+            </div>
+            {% endif %}
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        SkillBridge &copy; 2026 Ministry of Corporate Affairs, Government of India. All Rights Reserved.
+    </footer>
+
+    <script>
+        let currentCategory = 'software';
+
+        function switchCategory(category) {
+            currentCategory = category;
+            const btnSoft = document.getElementById('btnSoftware');
+            const btnHard = document.getElementById('btnHardware');
+            const gridSoft = document.getElementById('softwareGrid');
+            const gridHard = document.getElementById('hardwareGrid');
+            const catIcon = document.getElementById('categoryIcon');
+            const catTitle = document.getElementById('categoryTitle');
+            const searchInput = document.getElementById('searchInput');
+
+            // Reset search filter
+            searchInput.value = '';
+
+            if (category === 'software') {
+                btnSoft.classList.add('active');
+                btnHard.classList.remove('active');
+                gridSoft.style.display = 'grid';
+                gridHard.style.display = 'none';
+                catIcon.textContent = '💻';
+                catTitle.textContent = 'Software Engineering Modules';
+            } else {
+                btnHard.classList.add('active');
+                btnSoft.classList.remove('active');
+                gridHard.style.display = 'grid';
+                gridSoft.style.display = 'none';
+                catIcon.textContent = '⚙️';
+                catTitle.textContent = 'Hardware & Embedded Engineering Modules';
+            }
+
+            filterPDFs();
+        }
+
+        function filterPDFs() {
+            const query = document.getElementById('searchInput').value.toLowerCase().trim();
+            const activeGrid = currentCategory === 'software' ? document.getElementById('softwareGrid') : document.getElementById('hardwareGrid');
+            const cards = activeGrid.querySelectorAll('.pdf-card');
+
+            cards.forEach(card => {
+                const title = card.getAttribute('data-title') || '';
+                const filename = card.getAttribute('data-filename') || '';
+                if (title.includes(query) || filename.includes(query)) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>

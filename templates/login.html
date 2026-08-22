@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkillBridge AI — Sign In with Google</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap"
+    rel="stylesheet">
+  <style>
+    :root {
+      --navy: #002147;
+      --navy-deep: #001733;
+      --navy-dark: #07152B;
+      --ivory: #F9F6F0;
+      --amber: #FF9933;
+      --teal: #138808;
+      --slate: #1F2937;
+      --muted: #64748B;
+      --border: #E2E8F0;
+      --danger: #B3261E;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: var(--ivory);
+      color: var(--slate);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .tricolor {
+      height: 5px;
+      background: linear-gradient(to right, var(--amber) 33.33%, #fff 33.33%, #fff 66.66%, var(--teal) 66.66%);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .shell {
+      display: grid;
+      grid-template-columns: 1.1fr 1fr;
+      flex: 1;
+      min-height: calc(100vh - 5px);
+    }
+
+    @media (max-width: 890px) {
+      .shell {
+        grid-template-columns: 1fr;
+      }
+      .brand-panel {
+        min-height: 380px;
+        padding: 30px 20px;
+      }
+    }
+
+    /* Left Brand Panel with Hackathon Image */
+    .brand-panel {
+      background: var(--navy-dark);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 36px 28px;
+      position: relative;
+      overflow: hidden;
+      border-right: 3px solid var(--amber);
+      text-align: center;
+    }
+
+    .banner-img-wrap {
+      width: 100%;
+      max-width: 480px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .login-brand-img {
+      width: 100%;
+      max-width: 460px;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5);
+      border: 1.5px solid rgba(255, 255, 255, 0.12);
+      display: block;
+      transition: transform 0.3s ease;
+    }
+
+    .login-brand-img:hover {
+      transform: scale(1.01);
+    }
+
+    .brand-foot {
+      font-size: 12px;
+      color: #8CA0B3;
+      margin-top: 20px;
+      letter-spacing: 0.04em;
+    }
+
+    /* Right Form Panel */
+    .form-panel {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 24px;
+      background: #FFFFFF;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 420px;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .emblem-icon {
+      font-size: 44px;
+      margin-bottom: 12px;
+      display: inline-block;
+    }
+
+    .card h1 {
+      font-family: 'Cinzel', serif;
+      font-weight: 700;
+      font-size: 26px;
+      margin: 0 0 8px;
+      color: var(--navy);
+    }
+
+    .card p.lead {
+      margin: 0 0 32px;
+      font-size: 14px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    .error-msg {
+      display: none;
+      font-size: 13px;
+      color: var(--danger);
+      background: #FBEAE9;
+      border: 1px solid #F0C6C3;
+      border-radius: 8px;
+      padding: 10px 14px;
+      margin-bottom: 20px;
+      text-align: left;
+    }
+
+    .error-msg.show {
+      display: block;
+    }
+
+    /* Google Button */
+    .btn-google-primary {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      padding: 14px 20px;
+      border: 2px solid #E2E8F0;
+      border-radius: 12px;
+      background: #FFFFFF;
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--slate);
+      cursor: pointer;
+      font-family: inherit;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+      transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+
+    .btn-google-primary:hover {
+      background: #FAFAFA;
+      border-color: #CBD5E1;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .btn-google-primary:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    .notice-security {
+      margin-top: 24px;
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    .status-line {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      color: var(--muted);
+      margin-top: 28px;
+      padding: 6px 12px;
+      background: #F8FAFC;
+      border-radius: 6px;
+      display: inline-block;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="tricolor"></div>
+  <div class="shell">
+
+    <!-- Left Brand Panel with Hackathon Image UI -->
+    <div class="brand-panel">
+      <div class="banner-img-wrap">
+        <img src="/static/images/login_brand_banner.jpg" alt="SkillBridge AI - Smart India Hackathon 2026" class="login-brand-img">
+      </div>
+      <div class="brand-foot">Smart India Hackathon 2026 &bull; SkillBridge AI Portal</div>
+    </div>
+
+    <!-- Right Login Panel -->
+    <div class="form-panel">
+      <div class="card">
+        <div class="emblem-icon">🏛️</div>
+        <h1>Candidate Sign In</h1>
+        <p class="lead">Official authentication through Google.</p>
+
+        <div class="error-msg" id="error-box"></div>
+
+        <button type="button" class="btn-google-primary" id="google-btn">
+          <svg width="20" height="20" viewBox="0 0 48 48">
+            <path fill="#FFC107"
+              d="M43.6 20.5H42V20H24v8h11.3C33.7 32.9 29.3 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.1 8 3l6-6C34.5 5.4 29.5 3 24 3 12.4 3 3 12.4 3 24s9.4 21 21 21 21-9.4 21-21c0-1.2-.1-2.4-.4-3.5z" />
+            <path fill="#FF3D00"
+              d="M6.3 14.7l6.6 4.8C14.6 15.6 18.9 13 24 13c3.1 0 5.8 1.1 8 3l6-6C34.5 5.4 29.5 3 24 3c-7.7 0-14.4 4.4-17.7 10.8z" />
+            <path fill="#4CAF50"
+              d="M24 45c5.3 0 10.1-2 13.7-5.4l-6.3-5.3C29.4 36 26.9 37 24 37c-5.3 0-9.7-3.4-11.3-8.1l-6.5 5C9.6 40.5 16.3 45 24 45z" />
+            <path fill="#1976D2"
+              d="M43.6 20.5H42V20H24v8h11.3c-.8 2.3-2.3 4.3-4.2 5.7l6.3 5.3C40.8 36.3 45 30.7 45 24c0-1.2-.1-2.4-.4-3.5z" />
+          </svg>
+          <span>Continue with Google</span>
+        </button>
+
+        <p class="notice-security">
+          🔒 Secure authentication. Connect your Google account to access your AI internship recommendations and course library.
+        </p>
+
+        <div class="status-line" id="status-line">Firebase Ready</div>
+      </div>
+    </div>
+
+  </div>
+
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+    import {
+      getAuth,
+      signInWithPopup,
+      GoogleAuthProvider,
+      onAuthStateChanged
+    } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyBo3VFzaCoUhTGjt-aaIC7n7mEyWp2UW_U",
+      authDomain: "pm-internship-801c2.firebaseapp.com",
+      projectId: "pm-internship-801c2",
+      storageBucket: "pm-internship-801c2.firebasestorage.app",
+      messagingSenderId: "440175673604",
+      appId: "1:440175673604:web:77310c3684e1b667625051",
+      measurementId: "G-8VMTT6P2L5"
+    };
+
+    let auth, googleProvider, firebaseReady = false;
+    try {
+      const app = initializeApp(firebaseConfig);
+      auth = getAuth(app);
+      googleProvider = new GoogleAuthProvider();
+      firebaseReady = true;
+      document.getElementById("status-line").textContent = "auth: connected";
+    } catch (e) {
+      document.getElementById("status-line").textContent = "auth: configuration error";
+    }
+
+    const googleBtn = document.getElementById("google-btn");
+    const errorBox = document.getElementById("error-box");
+
+    async function completeLogin(user) {
+      googleBtn.disabled = true;
+      googleBtn.innerHTML = "<span>Authenticating...</span>";
+
+      try {
+        const idToken = await user.getIdToken();
+        const res = await fetch("/api/session", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ idToken })
+        });
+        const data = await res.json();
+        if (res.ok && data.redirect) {
+          window.location.href = data.redirect;
+        } else {
+          showError(data.error || "Could not initialize session. Please try again.");
+          googleBtn.disabled = false;
+          googleBtn.innerHTML = '<span>Continue with Google</span>';
+        }
+      } catch (err) {
+        showError("Could not reach the server. Please check your internet connection.");
+        googleBtn.disabled = false;
+        googleBtn.innerHTML = '<span>Continue with Google</span>';
+      }
+    }
+
+    function showError(message) {
+      errorBox.textContent = message;
+      errorBox.classList.add("show");
+    }
+
+    function clearError() {
+      errorBox.classList.remove("show");
+      errorBox.textContent = "";
+    }
+
+    googleBtn.addEventListener("click", async () => {
+      clearError();
+      if (!firebaseReady) {
+        showError("Firebase is initializing. Please try again in a moment.");
+        return;
+      }
+      try {
+        const cred = await signInWithPopup(auth, googleProvider);
+        await completeLogin(cred.user);
+      } catch (err) {
+        if (err && err.code === "auth/popup-closed-by-user") {
+          showError("Google sign-in popup was closed before completion.");
+        } else {
+          showError("Google sign-in failed. Please try again.");
+        }
+        googleBtn.disabled = false;
+      }
+    });
+
+    if (firebaseReady) {
+      onAuthStateChanged(auth, (user) => {
+        if (user) {
+          document.getElementById("status-line").textContent = `signed in: ${user.email}`;
+        }
+      });
+    }
+  </script>
+
+</body>
+
+</html>

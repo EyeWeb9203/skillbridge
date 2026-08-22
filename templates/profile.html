@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidate AI Profile & Preferences — SkillBridge</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --saffron: #FF9933;
+            --saffron-deep: #E67A18;
+            --green: #138808;
+            --green-deep: #0D6305;
+            --navy: #002147;
+            --navy-light: #0A3668;
+            --ivory: #F8F5EE;
+            --text-dark: #1E293B;
+            --text-muted: #64748B;
+            --border-color: #CBD5E1;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--ivory);
+            color: var(--text-dark);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Tricolor Top Ribbon */
+        .tricolor-ribbon {
+            height: 5px;
+            background: linear-gradient(to right, #FF9933 33.33%, #FFFFFF 33.33%, #FFFFFF 66.66%, #138808 66.66%);
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+        }
+
+        /* Navigation Header */
+        .top-nav {
+            position: fixed;
+            top: 5px;
+            left: 0;
+            right: 0;
+            z-index: 90;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 36px;
+            background: #FFFFFF;
+            border-bottom: 1px solid rgba(0, 33, 71, 0.08);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+        }
+
+        .nav-brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 700;
+            color: var(--navy);
+            font-size: 16px;
+            text-decoration: none;
+        }
+
+        .emblem-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--saffron);
+            box-shadow: 0 0 8px var(--saffron);
+        }
+
+        .nav-actions {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .btn-nav-home {
+            text-decoration: none;
+            background: #F1F5F9;
+            color: var(--navy);
+            padding: 7px 16px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        .btn-nav-home:hover {
+            background: #E2E8F0;
+        }
+
+        .btn-logout {
+            text-decoration: none;
+            background: #B3261E;
+            color: #FFFFFF;
+            padding: 7px 16px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 700;
+            transition: all 0.2s ease;
+        }
+
+        .btn-logout:hover {
+            background: #8E1F18;
+        }
+
+        /* Main Container */
+        .main-container {
+            max-width: 880px;
+            margin: 0 auto;
+            padding: 85px 24px 60px;
+            flex: 1;
+            width: 100%;
+        }
+
+        /* Hero Banner */
+        .page-banner {
+            background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
+            color: #FFFFFF;
+            padding: 32px 36px;
+            border-radius: 18px;
+            border-bottom: 4px solid var(--saffron);
+            box-shadow: 0 12px 30px -8px rgba(0, 33, 71, 0.25);
+            margin-bottom: 26px;
+        }
+
+        .page-banner h1 {
+            font-family: 'Cinzel', serif;
+            font-size: 26px;
+            margin-bottom: 8px;
+        }
+
+        .page-banner p {
+            color: #CBD5E1;
+            font-size: 14.5px;
+            line-height: 1.5;
+        }
+
+        .form-card {
+            background: #FFFFFF;
+            padding: 36px 40px;
+            border-radius: 18px;
+            border: 1px solid rgba(0, 33, 71, 0.08);
+            box-shadow: 0 6px 25px rgba(0, 33, 71, 0.05);
+        }
+
+        @media (max-width: 680px) {
+            .form-card {
+                padding: 24px 18px;
+            }
+        }
+
+        .success-banner {
+            background: #ECFDF5;
+            border: 1px solid #A7F3D0;
+            border-left: 4px solid var(--green);
+            padding: 14px 18px;
+            border-radius: 8px;
+            font-size: 14px;
+            color: #065F46;
+            margin-bottom: 24px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 700;
+        }
+
+        .notice-banner {
+            background: #FFF9EB;
+            border: 1px solid #FFE6A5;
+            border-left: 4px solid var(--saffron);
+            padding: 14px 18px;
+            border-radius: 8px;
+            font-size: 13.5px;
+            color: #7A5300;
+            margin-bottom: 28px;
+            line-height: 1.5;
+        }
+
+        /* Form Sections */
+        .form-section {
+            margin-bottom: 32px;
+            padding-bottom: 24px;
+            border-bottom: 1.5px dashed #E2E8F0;
+        }
+
+        .form-section:last-of-type {
+            border-bottom: none;
+            padding-bottom: 0;
+            margin-bottom: 20px;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 17px;
+            font-weight: 800;
+            color: var(--navy);
+            margin-bottom: 18px;
+        }
+
+        .section-icon-badge {
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            background: #F1F5F9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+        }
+
+        .form-grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 18px;
+            margin-bottom: 16px;
+        }
+
+        .form-grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+
+        @media (max-width: 640px) {
+            .form-grid-2, .form-grid-3 {
+                grid-template-columns: 1fr;
+                gap: 14px;
+            }
+        }
+
+        .form-group {
+            margin-bottom: 16px;
+        }
+
+        .form-label {
+            display: block;
+            font-size: 13px;
+            font-weight: 700;
+            color: var(--navy);
+            margin-bottom: 6px;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 11px 13px;
+            font-size: 14px;
+            border-radius: 8px;
+            border: 1.5px solid var(--border-color);
+            background: #F8FAFC;
+            font-family: inherit;
+            transition: all 0.2s ease;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--navy);
+            background: #FFFFFF;
+            box-shadow: 0 0 0 3px rgba(0, 33, 71, 0.1);
+        }
+
+        .form-control:disabled, .form-control[readonly] {
+            background: #F1F5F9;
+            color: #64748B;
+            cursor: not-allowed;
+        }
+
+        /* Quick Chips & Checkboxes */
+        .chips-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-top: 8px;
+        }
+
+        .suggestion-chip {
+            background: #F1F5F9;
+            color: var(--navy);
+            border: 1px solid #E2E8F0;
+            padding: 4px 10px;
+            border-radius: 14px;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            user-select: none;
+        }
+
+        .suggestion-chip:hover {
+            background: var(--navy);
+            color: #FFFFFF;
+            border-color: var(--navy);
+        }
+
+        .sector-tag-chip {
+            background: #F8FAFC;
+            color: #475569;
+            border: 1.5px solid #CBD5E1;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 12.5px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            user-select: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .sector-tag-chip.selected {
+            background: #EFF6FF;
+            color: #1D4ED8;
+            border-color: #1D4ED8;
+            font-weight: 700;
+        }
+
+        .btn-save-large {
+            background: linear-gradient(135deg, var(--green) 0%, var(--green-deep) 100%);
+            color: #FFFFFF;
+            border: none;
+            width: 100%;
+            padding: 16px 28px;
+            font-size: 16px;
+            font-weight: 700;
+            border-radius: 12px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            box-shadow: 0 4px 16px rgba(19, 136, 8, 0.35);
+            transition: all 0.25s ease;
+            margin-top: 24px;
+        }
+
+        .btn-save-large:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(19, 136, 8, 0.45);
+        }
+
+        /* Footer */
+        .site-footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+            color: var(--text-muted);
+            border-top: 1px solid rgba(0, 33, 71, 0.08);
+            background: #FFFFFF;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Tricolor Ribbon -->
+    <div class="tricolor-ribbon"></div>
+
+    <!-- Navigation -->
+    <header class="top-nav">
+        <a href="/" class="nav-brand">
+            <span class="emblem-dot"></span>
+            <span>SkillBridge — Candidate Setup</span>
+        </a>
+        <div class="nav-actions">
+            <a href="/" class="btn-nav-home">← Dashboard</a>
+            <a href="/logout" class="btn-logout">Logout</a>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="main-container">
+
+        <div class="page-banner">
+            <h1>Candidate AI Profile Configuration</h1>
+            <p>Provide your academic credentials, technical skills, and career preferences. Our AI engine uses these multi-dimensional parameters to compute accurate matching scores against 500+ Top Enterprise Internships.</p>
+        </div>
+
+        <div class="form-card">
+
+            {% if saved %}
+            <div class="success-banner">
+                <span>✅</span> Profile details saved successfully! Your AI internship recommendation model is now calibrated.
+            </div>
+            {% endif %}
+
+            <div class="notice-banner">
+                <strong>💡 AI Recommendation Calibration:</strong> Please fill in all sections carefully. The matching algorithm evaluates your core skills, specializations, academic scores, and sector preferences to generate your Top Recommended Internships.
+            </div>
+
+            <form action="/profile" method="POST" id="profileForm">
+
+                <!-- SECTION 1: Personal & Contact Information -->
+                <div class="form-section">
+                    <div class="section-header">
+                        <span class="section-icon-badge">👤</span>
+                        <span>1. Personal & Contact Details</span>
+                    </div>
+
+                    <div class="form-grid-2">
+                        <div class="form-group">
+                            <label class="form-label" for="name">Candidate Full Name *</label>
+                            <input class="form-control" type="text" id="name" name="name" value="{{ profile.name if profile and profile.name else '' }}" placeholder="e.g. Sankalp Sharma" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="email">Google Account Email</label>
+                            <input class="form-control" type="email" id="email" name="email" value="{{ profile.email if profile and profile.email else session.get('email', '') }}" readonly>
+                        </div>
+                    </div>
+
+                    <div class="form-grid-3">
+                        <div class="form-group">
+                            <label class="form-label" for="phone">Phone / WhatsApp Number *</label>
+                            <input class="form-control" type="tel" id="phone" name="phone" value="{{ profile.phone if profile and profile.phone else '' }}" placeholder="e.g. +91 9876543210" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="gender">Gender</label>
+                            <select class="form-control" id="gender" name="gender">
+                                <option selected value="Male" {% if profile and profile.gender == 'Male' %}selected{% endif %}>Male</option>
+                                <option value="Female" {% if profile and profile.gender == 'Female' %}selected{% endif %}>Female</option>
+                                <option value="Other" {% if profile and profile.gender == 'Other' %}selected{% endif %}>Other / Prefer not to say</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="state_city">Home City & State *</label>
+                            <input class="form-control" type="text" id="state_city" name="state_city" value="{{ profile.state_city if profile and profile.state_city else '' }}" placeholder="e.g. Jaipur, Rajasthan" required>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION 2: Academic & Educational Background -->
+                <div class="form-section">
+                    <div class="section-header">
+                        <span class="section-icon-badge">🎓</span>
+                        <span>2. Academic & Educational Credentials</span>
+                    </div>
+
+                    <div class="form-grid-2">
+                        <div class="form-group">
+                            <label class="form-label" for="degree">Highest Qualification / Degree *</label>
+                            <select class="form-control" id="degree" name="degree" required>
+                                <option value="">-- Select Degree --</option>
+                                <option value="B.Tech" {% if profile and profile.degree == 'B.Tech' %}selected{% endif %}>B.Tech / B.E. (Engineering)</option>
+                                <option value="B.Sc" {% if profile and profile.degree == 'B.Sc' %}selected{% endif %}>B.Sc (Science / IT / Electronics)</option>
+                                <option value="BCA" {% if profile and profile.degree == 'BCA' %}selected{% endif %}>BCA (Computer Applications)</option>
+                                <option value="B.Com" {% if profile and profile.degree == 'B.Com' %}selected{% endif %}>B.Com (Commerce / Accounts)</option>
+                                <option value="BBA" {% if profile and profile.degree == 'BBA' %}selected{% endif %}>BBA / BBM (Business Administration)</option>
+                                <option value="BA" {% if profile and profile.degree == 'BA' %}selected{% endif %}>BA (Humanities / Economics)</option>
+                                <option value="MCA" {% if profile and profile.degree == 'MCA' %}selected{% endif %}>MCA / M.Sc (Post-Graduate Tech)</option>
+                                <option value="MBA" {% if profile and profile.degree == 'MBA' %}selected{% endif %}>MBA / PGDM (Management)</option>
+                                <option value="Diploma" {% if profile and profile.degree == 'Diploma' %}selected{% endif %}>Polytechnic Diploma</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="field_of_study">Major / Branch / Specialization *</label>
+                            <input class="form-control" type="text" id="field_of_study" name="field_of_study" value="{{ profile.field_of_study if profile and profile.field_of_study else '' }}" placeholder="e.g. Computer Science, Mechanical, Finance" required>
+                        </div>
+                    </div>
+
+                    <div class="form-grid-2">
+                        <div class="form-group">
+                            <label class="form-label" for="graduation_year">Year of Graduation / Completion *</label>
+                            <select class="form-control" id="graduation_year" name="graduation_year" required>
+                                <option value="2027" {% if profile and profile.graduation_year == '2027' %}selected{% endif %}>2027 (Pursuing)</option>
+                                <option value="2026" {% if profile and profile.graduation_year == '2026' %}selected{% endif %}>2026 (Final Year / Current)</option>
+                                <option value="2025" {% if profile and profile.graduation_year == '2025' %}selected{% endif %}>2025 (Recent Graduate)</option>
+                                <option value="2024" {% if profile and profile.graduation_year == '2024' %}selected{% endif %}>2024</option>
+                                <option value="2023" {% if profile and profile.graduation_year == '2023' %}selected{% endif %}>2023 or Earlier</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="cgpa_percentage">CGPA / Percentage Score</label>
+                            <input class="form-control" type="text" id="cgpa_percentage" name="cgpa_percentage" value="{{ profile.cgpa_percentage if profile and profile.cgpa_percentage else '' }}" placeholder="e.g. 8.4 CGPA or 82%">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION 3: Skills & Competencies (Core AI Match) -->
+                <div class="form-section">
+                    <div class="section-header">
+                        <span class="section-icon-badge">⚡</span>
+                        <span>3. Skills & Competencies (AI Core Vector)</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" for="skills">Primary Technical & Domain Skills (Comma-Separated) *</label>
+                        <textarea class="form-control" id="skills" name="skills" rows="3" placeholder="e.g., Python, Data Analysis, SQL, React, Financial Modeling, Machine Learning, AutoCAD" required>{{ profile.skills if profile and profile.skills else '' }}</textarea>
+
+                        <div style="margin-top: 10px;">
+                            <div style="font-size: 12px; color: var(--text-muted); font-weight: 600; margin-bottom: 6px;">Click to quickly add domain skills:</div>
+                            <div class="chips-container">
+                                <span class="suggestion-chip" onclick="addSkill('Python')">+ Python</span>
+                                <span class="suggestion-chip" onclick="addSkill('Data Analysis')">+ Data Analysis</span>
+                                <span class="suggestion-chip" onclick="addSkill('SQL')">+ SQL</span>
+                                <span class="suggestion-chip" onclick="addSkill('Machine Learning')">+ Machine Learning</span>
+                                <span class="suggestion-chip" onclick="addSkill('Web Development')">+ Web Development</span>
+                                <span class="suggestion-chip" onclick="addSkill('Java')">+ Java</span>
+                                <span class="suggestion-chip" onclick="addSkill('Finance')">+ Finance</span>
+                                <span class="suggestion-chip" onclick="addSkill('Marketing')">+ Marketing</span>
+                                <span class="suggestion-chip" onclick="addSkill('Mechanical')">+ Mechanical</span>
+                                <span class="suggestion-chip" onclick="addSkill('AutoCAD')">+ AutoCAD</span>
+                                <span class="suggestion-chip" onclick="addSkill('Excel')">+ Excel</span>
+                                <span class="suggestion-chip" onclick="addSkill('Supply Chain')">+ Supply Chain</span>
+                                <span class="suggestion-chip" onclick="addSkill('Metallurgy')">+ Metallurgy</span>
+                                <span class="suggestion-chip" onclick="addSkill('Electrical')">+ Electrical</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-grid-2">
+                        <div class="form-group">
+                            <label class="form-label" for="soft_skills">Key Soft Skills & Strengths</label>
+                            <input class="form-control" type="text" id="soft_skills" name="soft_skills" value="{{ profile.soft_skills if profile and profile.soft_skills else '' }}" placeholder="e.g. Problem Solving, Leadership, Communication">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="experience_level">Prior Experience Level</label>
+                            <select class="form-control" id="experience_level" name="experience_level">
+                                <option value="Fresher" {% if profile and profile.experience_level == 'Fresher' %}selected{% endif %}>Fresher / Student (No prior internships)</option>
+                                <option value="Academic Projects" {% if profile and profile.experience_level == 'Academic Projects' %}selected{% endif %}>Academic & Capstone Projects</option>
+                                <option value="1 Prior Internship" {% if profile and profile.experience_level == '1 Prior Internship' %}selected{% endif %}>1 Prior Internship Completed</option>
+                                <option value="2+ Internships / Work" {% if profile and profile.experience_level == '2+ Internships / Work' %}selected{% endif %}>2+ Internships or Freelance Work</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION 4: Internship & Work Preferences -->
+                <div class="form-section">
+                    <div class="section-header">
+                        <span class="section-icon-badge">🎯</span>
+                        <span>4. Internship & Industry Preferences</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">Preferred Industry Sectors (Select all that interest you)</label>
+                        <input type="hidden" id="preferred_sectors" name="preferred_sectors" value="{{ profile.preferred_sectors if profile and profile.preferred_sectors else '' }}">
+                        
+                        <div class="chips-container" id="sectorsChipContainer">
+                            <span class="sector-tag-chip" onclick="toggleSectorChip(this, 'IT & Software')">💻 IT & Software</span>
+                            <span class="sector-tag-chip" onclick="toggleSectorChip(this, 'Banking & Finance')">🏦 Banking & Finance</span>
+                            <span class="sector-tag-chip" onclick="toggleSectorChip(this, 'Manufacturing & Automation')">🏭 Manufacturing</span>
+                            <span class="sector-tag-chip" onclick="toggleSectorChip(this, 'Energy & Telecom')">⚡ Energy & Telecom</span>
+                            <span class="sector-tag-chip" onclick="toggleSectorChip(this, 'Automotive & EV')">🚗 Automotive</span>
+                            <span class="sector-tag-chip" onclick="toggleSectorChip(this, 'Infrastructure & Civil')">🏗️ Infrastructure</span>
+                            <span class="sector-tag-chip" onclick="toggleSectorChip(this, 'FMCG & Retail')">📦 FMCG & Retail</span>
+                            <span class="sector-tag-chip" onclick="toggleSectorChip(this, 'Defense & Electronics')">🛡️ Defense & Core Tech</span>
+                        </div>
+                    </div>
+
+                    <div class="form-grid-3">
+                        <div class="form-group">
+                            <label class="form-label" for="location">Preferred Work Location *</label>
+                            <select class="form-control" id="location" name="location" required>
+                                <option value="Any" {% if profile and profile.location == 'Any' %}selected{% endif %}>Any / Flexible across India</option>
+                                <option value="Delhi" {% if profile and profile.location == 'Delhi' %}selected{% endif %}>Delhi NCR</option>
+                                <option value="Mumbai" {% if profile and profile.location == 'Mumbai' %}selected{% endif %}>Mumbai / Pune</option>
+                                <option value="Bangalore" {% if profile and profile.location == 'Bangalore' %}selected{% endif %}>Bangalore</option>
+                                <option value="Chennai" {% if profile and profile.location == 'Chennai' %}selected{% endif %}>Chennai</option>
+                                <option value="Hyderabad" {% if profile and profile.location == 'Hyderabad' %}selected{% endif %}>Hyderabad</option>
+                                <option value="Kolkata" {% if profile and profile.location == 'Kolkata' %}selected{% endif %}>Kolkata</option>
+                                <option value="Ahmedabad" {% if profile and profile.location == 'Ahmedabad' %}selected{% endif %}>Ahmedabad</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="internship_mode">Work Mode *</label>
+                            <select class="form-control" id="internship_mode" name="internship_mode">
+                                <option value="Hybrid" {% if profile and profile.internship_mode == 'Hybrid' %}selected{% endif %}>Hybrid (Office + Remote)</option>
+                                <option value="In person" {% if profile and profile.internship_mode == 'In person' %}selected{% endif %}>In-Person / On-site</option>
+                                <option value="Remote" {% if profile and profile.internship_mode == 'Remote' %}selected{% endif %}>Remote / Work from Home</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="availability">Availability & Duration</label>
+                            <select class="form-control" id="availability" name="availability">
+                                <option value="Immediate (Full-time)" {% if profile and profile.availability == 'Immediate (Full-time)' %}selected{% endif %}>Immediate (Full-time)</option>
+                                <option value="6 Months" {% if profile and profile.availability == '6 Months' %}selected{% endif %}>6 Months Duration</option>
+                                <option value="3 Months" {% if profile and profile.availability == '3 Months' %}selected{% endif %}>3 Months (Summer / Winter)</option>
+                                <option value="Part-time" {% if profile and profile.availability == 'Part-time' %}selected{% endif %}>Part-Time / Flexible</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION 5: Links & Resume Profile -->
+                <div class="form-section">
+                    <div class="section-header">
+                        <span class="section-icon-badge">🔗</span>
+                        <span>5. Portfolio & Professional Profiles</span>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" for="resume_url">LinkedIn Profile / GitHub / Portfolio URL</label>
+                        <input class="form-control" type="url" id="resume_url" name="resume_url" value="{{ profile.resume_url if profile and profile.resume_url else '' }}" placeholder="https://linkedin.com/in/yourprofile or https://github.com/yourhandle">
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn-save-large">
+                    <span>💾</span> Save Complete Profile & Find AI Internships
+                </button>
+            </form>
+
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        SkillBridge &copy; 2026 Ministry of Corporate Affairs, Government of India. All Rights Reserved.
+    </footer>
+
+    <script>
+        // Initialize selected sector chips from hidden input
+        const sectorsInput = document.getElementById('preferred_sectors');
+        let selectedSectors = sectorsInput.value ? sectorsInput.value.split(',').map(s => s.trim()) : [];
+
+        document.querySelectorAll('.sector-tag-chip').forEach(chip => {
+            const text = chip.textContent.replace(/^[^\w]+/, '').trim();
+            if (selectedSectors.some(s => chip.textContent.includes(s))) {
+                chip.classList.add('selected');
+            }
+        });
+
+        function toggleSectorChip(chip, sectorName) {
+            chip.classList.toggle('selected');
+            if (chip.classList.contains('selected')) {
+                if (!selectedSectors.includes(sectorName)) {
+                    selectedSectors.push(sectorName);
+                }
+            } else {
+                selectedSectors = selectedSectors.filter(s => s !== sectorName);
+            }
+            sectorsInput.value = selectedSectors.join(', ');
+        }
+
+        function addSkill(skillName) {
+            const textarea = document.getElementById('skills');
+            let current = textarea.value.trim();
+            const skillLower = skillName.toLowerCase();
+            
+            const existingSkills = current.split(',').map(s => s.trim().toLowerCase());
+            if (existingSkills.includes(skillLower)) {
+                return;
+            }
+
+            if (current.length === 0) {
+                textarea.value = skillName;
+            } else {
+                if (current.endsWith(',')) {
+                    textarea.value = current + ' ' + skillName;
+                } else {
+                    textarea.value = current + ', ' + skillName;
+                }
+            }
+            textarea.focus();
+        }
+    </script>
+</body>
+</html>

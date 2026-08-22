@@ -1,0 +1,3519 @@
+{
+  "timestamp": 1787359296.2204645,
+  "internships": [
+    {
+      "company_name": "Tata Steel",
+      "job_title": "Manufacturing Trainee Intern",
+      "sector": "Manufacturing",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc"
+      ],
+      "skills_and_competencies": [
+        "mechanical",
+        "data analysis",
+        "python",
+        "metallurgy"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Tata Steel in Manufacturing.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Reliance Industries",
+      "job_title": "Energy & Telecom Trainee Intern",
+      "sector": "Energy & Telecom",
+      "location": "Mumbai",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Com",
+        "BBA"
+      ],
+      "skills_and_competencies": [
+        "python",
+        "marketing",
+        "data analysis",
+        "finance"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Reliance Industries in Energy & Telecom.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Mahindra & Mahindra",
+      "job_title": "Automotive Trainee Intern",
+      "sector": "Automotive",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "B.E."
+      ],
+      "skills_and_competencies": [
+        "mechanical",
+        "electrical",
+        "supply chain",
+        "autoCAD"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Mahindra & Mahindra in Automotive.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Larsen & Toubro (L&T)",
+      "job_title": "Infrastructure Trainee Intern",
+      "sector": "Infrastructure",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "B.E."
+      ],
+      "skills_and_competencies": [
+        "civil",
+        "electrical",
+        "project management",
+        "autoCAD"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Larsen & Toubro (L&T) in Infrastructure.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Infosys",
+      "job_title": "IT & Software Trainee Intern",
+      "sector": "IT & Software",
+      "location": "Bangalore",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA"
+      ],
+      "skills_and_competencies": [
+        "python",
+        "java",
+        "data analysis",
+        "web development"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Infosys in IT & Software.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "HDFC Bank",
+      "job_title": "Banking & Finance Trainee Intern",
+      "sector": "Banking & Finance",
+      "location": "Mumbai",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Com",
+        "BBA",
+        "BA"
+      ],
+      "skills_and_competencies": [
+        "finance",
+        "excel",
+        "data analysis",
+        "economics"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with HDFC Bank in Banking & Finance.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "ITC Limited",
+      "job_title": "FMCG Trainee Intern",
+      "sector": "FMCG",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "BBA",
+        "B.Com",
+        "B.Tech"
+      ],
+      "skills_and_competencies": [
+        "marketing",
+        "supply chain",
+        "data analysis",
+        "sales"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with ITC Limited in FMCG.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Indian Oil Corporation",
+      "job_title": "Public Sector / Energy Trainee Intern",
+      "sector": "Public Sector / Energy",
+      "location": "Delhi",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc"
+      ],
+      "skills_and_competencies": [
+        "chemical",
+        "mechanical",
+        "data analysis",
+        "safety"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Indian Oil Corporation in Public Sector / Energy.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Bharat Electronics (BEL)",
+      "job_title": "Defense / Electronics Trainee Intern",
+      "sector": "Defense / Electronics",
+      "location": "Bangalore",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "B.E."
+      ],
+      "skills_and_competencies": [
+        "electrical",
+        "electronics",
+        "python",
+        "hardware"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Bharat Electronics (BEL) in Defense / Electronics.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "State Bank of India (SBI)",
+      "job_title": "Public Sector Banking Trainee Intern",
+      "sector": "Public Sector Banking",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Com",
+        "BA",
+        "BBA"
+      ],
+      "skills_and_competencies": [
+        "finance",
+        "excel",
+        "customer service",
+        "economics"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with State Bank of India (SBI) in Public Sector Banking.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "State Bank of India (SBI)",
+      "job_title": "Public Sector Banking Trainee Intern",
+      "sector": "Public Sector Banking",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Com",
+        "BA",
+        "BBA"
+      ],
+      "skills_and_competencies": [
+        "finance",
+        "excel",
+        "customer service",
+        "economics"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with State Bank of India (SBI) in Public Sector Banking.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "HDFC Bank",
+      "job_title": "Private Sector Banking Trainee Intern",
+      "sector": "Private Sector Banking",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Com",
+        "BBA",
+        "MBA",
+        "BA"
+      ],
+      "skills_and_competencies": [
+        "finance",
+        "excel",
+        "banking",
+        "customer service"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with HDFC Bank in Private Sector Banking.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "ICICI Bank",
+      "job_title": "Private Sector Banking Trainee Intern",
+      "sector": "Private Sector Banking",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Com",
+        "BBA",
+        "MBA",
+        "BA"
+      ],
+      "skills_and_competencies": [
+        "finance",
+        "banking",
+        "excel",
+        "data analysis"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with ICICI Bank in Private Sector Banking.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Axis Bank",
+      "job_title": "Private Sector Banking Trainee Intern",
+      "sector": "Private Sector Banking",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Com",
+        "BBA",
+        "MBA",
+        "BA"
+      ],
+      "skills_and_competencies": [
+        "finance",
+        "banking",
+        "sales",
+        "customer service"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Axis Bank in Private Sector Banking.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Kotak Mahindra Bank",
+      "job_title": "Private Sector Banking Trainee Intern",
+      "sector": "Private Sector Banking",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Com",
+        "BBA",
+        "MBA",
+        "BA"
+      ],
+      "skills_and_competencies": [
+        "finance",
+        "banking",
+        "excel",
+        "analytics"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Kotak Mahindra Bank in Private Sector Banking.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Tata Consultancy Services (TCS)",
+      "job_title": "Information Technology Trainee Intern",
+      "sector": "Information Technology",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "BCA",
+        "MCA"
+      ],
+      "skills_and_competencies": [
+        "java",
+        "python",
+        "sql",
+        "cloud",
+        "data analysis"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Tata Consultancy Services (TCS) in Information Technology.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Infosys",
+      "job_title": "Information Technology Trainee Intern",
+      "sector": "Information Technology",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "BCA",
+        "MCA"
+      ],
+      "skills_and_competencies": [
+        "java",
+        "python",
+        "sql",
+        "web development",
+        "cloud"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Infosys in Information Technology.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Wipro",
+      "job_title": "Information Technology Trainee Intern",
+      "sector": "Information Technology",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "BCA",
+        "MCA"
+      ],
+      "skills_and_competencies": [
+        "python",
+        "java",
+        "sql",
+        "cloud computing",
+        "testing"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Wipro in Information Technology.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "HCLTech",
+      "job_title": "Information Technology Trainee Intern",
+      "sector": "Information Technology",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "BCA",
+        "MCA"
+      ],
+      "skills_and_competencies": [
+        "java",
+        "python",
+        "cloud",
+        "cybersecurity",
+        "sql"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with HCLTech in Information Technology.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Tech Mahindra",
+      "job_title": "Information Technology Trainee Intern",
+      "sector": "Information Technology",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "BCA",
+        "MCA"
+      ],
+      "skills_and_competencies": [
+        "java",
+        "python",
+        "networking",
+        "cloud",
+        "sql"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Tech Mahindra in Information Technology.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Accenture",
+      "job_title": "IT Consulting Trainee Intern",
+      "sector": "IT Consulting",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "BCA",
+        "MCA",
+        "MBA"
+      ],
+      "skills_and_competencies": [
+        "python",
+        "sql",
+        "cloud",
+        "data analysis",
+        "consulting"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Accenture in IT Consulting.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Deloitte",
+      "job_title": "Consulting and Professional Services Trainee Intern",
+      "sector": "Consulting and Professional Services",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Com",
+        "BBA",
+        "B.Tech",
+        "MBA",
+        "CA"
+      ],
+      "skills_and_competencies": [
+        "data analysis",
+        "excel",
+        "finance",
+        "consulting",
+        "sql"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Deloitte in Consulting and Professional Services.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Ernst & Young (EY)",
+      "job_title": "Consulting and Professional Services Trainee Intern",
+      "sector": "Consulting and Professional Services",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Com",
+        "BBA",
+        "MBA",
+        "CA",
+        "B.Tech"
+      ],
+      "skills_and_competencies": [
+        "finance",
+        "excel",
+        "data analysis",
+        "consulting",
+        "accounting"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Ernst & Young (EY) in Consulting and Professional Services.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "KPMG",
+      "job_title": "Consulting and Professional Services Trainee Intern",
+      "sector": "Consulting and Professional Services",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Com",
+        "BBA",
+        "MBA",
+        "CA",
+        "B.Tech"
+      ],
+      "skills_and_competencies": [
+        "accounting",
+        "finance",
+        "excel",
+        "audit",
+        "data analysis"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with KPMG in Consulting and Professional Services.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "PwC India",
+      "job_title": "Consulting and Professional Services Trainee Intern",
+      "sector": "Consulting and Professional Services",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Com",
+        "BBA",
+        "MBA",
+        "CA",
+        "B.Tech"
+      ],
+      "skills_and_competencies": [
+        "finance",
+        "audit",
+        "accounting",
+        "excel",
+        "consulting"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with PwC India in Consulting and Professional Services.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Amazon",
+      "job_title": "E-Commerce and Technology Trainee Intern",
+      "sector": "E-Commerce and Technology",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "BCA",
+        "MCA",
+        "MBA"
+      ],
+      "skills_and_competencies": [
+        "python",
+        "java",
+        "sql",
+        "data analysis",
+        "cloud"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Amazon in E-Commerce and Technology.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Microsoft",
+      "job_title": "Technology Trainee Intern",
+      "sector": "Technology",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "BCA",
+        "MCA"
+      ],
+      "skills_and_competencies": [
+        "python",
+        "c++",
+        "java",
+        "azure",
+        "machine learning"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Microsoft in Technology.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Google",
+      "job_title": "Technology Trainee Intern",
+      "sector": "Technology",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "BCA",
+        "MCA"
+      ],
+      "skills_and_competencies": [
+        "python",
+        "java",
+        "c++",
+        "machine learning",
+        "cloud"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Google in Technology.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "IBM",
+      "job_title": "Technology and Consulting Trainee Intern",
+      "sector": "Technology and Consulting",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "BCA",
+        "MCA"
+      ],
+      "skills_and_competencies": [
+        "python",
+        "java",
+        "cloud",
+        "ai",
+        "data science"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with IBM in Technology and Consulting.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Oracle",
+      "job_title": "Enterprise Technology Trainee Intern",
+      "sector": "Enterprise Technology",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "BCA",
+        "MCA"
+      ],
+      "skills_and_competencies": [
+        "java",
+        "sql",
+        "database",
+        "cloud",
+        "python"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Oracle in Enterprise Technology.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "SAP",
+      "job_title": "Enterprise Software Trainee Intern",
+      "sector": "Enterprise Software",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "BCA",
+        "BBA",
+        "MBA"
+      ],
+      "skills_and_competencies": [
+        "sap",
+        "sql",
+        "java",
+        "business analysis",
+        "erp"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with SAP in Enterprise Software.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Salesforce",
+      "job_title": "Cloud Software Trainee Intern",
+      "sector": "Cloud Software",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "BCA",
+        "MCA",
+        "BBA"
+      ],
+      "skills_and_competencies": [
+        "salesforce",
+        "apex",
+        "sql",
+        "cloud",
+        "crm"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Salesforce in Cloud Software.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Adobe",
+      "job_title": "Software and Technology Trainee Intern",
+      "sector": "Software and Technology",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "BCA",
+        "MCA"
+      ],
+      "skills_and_competencies": [
+        "java",
+        "c++",
+        "python",
+        "ui design",
+        "javascript"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Adobe in Software and Technology.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "NVIDIA",
+      "job_title": "Semiconductors and AI Trainee Intern",
+      "sector": "Semiconductors and AI",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "M.Tech",
+        "MCA"
+      ],
+      "skills_and_competencies": [
+        "python",
+        "c++",
+        "machine learning",
+        "deep learning",
+        "cuda"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with NVIDIA in Semiconductors and AI.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Intel",
+      "job_title": "Semiconductors Trainee Intern",
+      "sector": "Semiconductors",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "M.Tech"
+      ],
+      "skills_and_competencies": [
+        "c++",
+        "python",
+        "embedded systems",
+        "electronics",
+        "computer architecture"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Intel in Semiconductors.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Qualcomm",
+      "job_title": "Semiconductors and Telecommunications Trainee Intern",
+      "sector": "Semiconductors and Telecommunications",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "M.Tech"
+      ],
+      "skills_and_competencies": [
+        "c++",
+        "embedded systems",
+        "5g",
+        "electronics",
+        "python"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Qualcomm in Semiconductors and Telecommunications.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Flipkart",
+      "job_title": "E-Commerce Trainee Intern",
+      "sector": "E-Commerce",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "BCA",
+        "BBA",
+        "MBA"
+      ],
+      "skills_and_competencies": [
+        "python",
+        "java",
+        "sql",
+        "data analysis",
+        "marketing"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Flipkart in E-Commerce.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Myntra",
+      "job_title": "E-Commerce and Fashion Technology Trainee Intern",
+      "sector": "E-Commerce and Fashion Technology",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "BCA",
+        "BBA",
+        "MBA"
+      ],
+      "skills_and_competencies": [
+        "python",
+        "sql",
+        "marketing",
+        "data analysis",
+        "web development"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Myntra in E-Commerce and Fashion Technology.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Swiggy",
+      "job_title": "Food Technology and E-Commerce Trainee Intern",
+      "sector": "Food Technology and E-Commerce",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "BCA",
+        "BBA",
+        "MBA"
+      ],
+      "skills_and_competencies": [
+        "python",
+        "sql",
+        "data analysis",
+        "marketing",
+        "operations"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Swiggy in Food Technology and E-Commerce.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Zomato",
+      "job_title": "Food Technology and E-Commerce Trainee Intern",
+      "sector": "Food Technology and E-Commerce",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "BCA",
+        "BBA",
+        "MBA"
+      ],
+      "skills_and_competencies": [
+        "python",
+        "sql",
+        "data analysis",
+        "marketing",
+        "business analytics"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Zomato in Food Technology and E-Commerce.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Paytm",
+      "job_title": "FinTech Trainee Intern",
+      "sector": "FinTech",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "BCA",
+        "B.Com",
+        "MBA"
+      ],
+      "skills_and_competencies": [
+        "java",
+        "python",
+        "sql",
+        "finance",
+        "data analysis"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Paytm in FinTech.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Razorpay",
+      "job_title": "FinTech Trainee Intern",
+      "sector": "FinTech",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "BCA",
+        "B.Com",
+        "MBA"
+      ],
+      "skills_and_competencies": [
+        "python",
+        "java",
+        "sql",
+        "payments",
+        "fintech"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Razorpay in FinTech.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "PhonePe",
+      "job_title": "FinTech Trainee Intern",
+      "sector": "FinTech",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "BCA",
+        "B.Com",
+        "MBA"
+      ],
+      "skills_and_competencies": [
+        "java",
+        "python",
+        "sql",
+        "finance",
+        "payments"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with PhonePe in FinTech.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Jio Platforms",
+      "job_title": "Telecommunications and Technology Trainee Intern",
+      "sector": "Telecommunications and Technology",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "BCA",
+        "MCA"
+      ],
+      "skills_and_competencies": [
+        "python",
+        "java",
+        "cloud",
+        "networking",
+        "data science"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Jio Platforms in Telecommunications and Technology.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Reliance Industries",
+      "job_title": "Conglomerate Trainee Intern",
+      "sector": "Conglomerate",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Com",
+        "BBA",
+        "MBA",
+        "BA"
+      ],
+      "skills_and_competencies": [
+        "finance",
+        "data analysis",
+        "marketing",
+        "operations",
+        "excel"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Reliance Industries in Conglomerate.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Tata Motors",
+      "job_title": "Automotive Trainee Intern",
+      "sector": "Automotive",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "M.Tech",
+        "MBA"
+      ],
+      "skills_and_competencies": [
+        "mechanical engineering",
+        "automotive",
+        "cad",
+        "manufacturing",
+        "design"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Tata Motors in Automotive.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Mahindra & Mahindra",
+      "job_title": "Automotive Trainee Intern",
+      "sector": "Automotive",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "M.Tech",
+        "MBA"
+      ],
+      "skills_and_competencies": [
+        "mechanical engineering",
+        "automotive",
+        "cad",
+        "manufacturing",
+        "operations"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Mahindra & Mahindra in Automotive.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Larsen & Toubro (L&T)",
+      "job_title": "Engineering and Construction Trainee Intern",
+      "sector": "Engineering and Construction",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "M.Tech",
+        "MBA"
+      ],
+      "skills_and_competencies": [
+        "civil engineering",
+        "mechanical engineering",
+        "project management",
+        "cad",
+        "construction"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Larsen & Toubro (L&T) in Engineering and Construction.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Adani Group",
+      "job_title": "Infrastructure and Energy Trainee Intern",
+      "sector": "Infrastructure and Energy",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "B.Com",
+        "BBA",
+        "MBA"
+      ],
+      "skills_and_competencies": [
+        "finance",
+        "engineering",
+        "operations",
+        "excel",
+        "project management"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Adani Group in Infrastructure and Energy.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Indian Oil Corporation (IOCL)",
+      "job_title": "Oil and Gas Trainee Intern",
+      "sector": "Oil and Gas",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "M.Tech",
+        "B.Com"
+      ],
+      "skills_and_competencies": [
+        "chemical engineering",
+        "mechanical engineering",
+        "operations",
+        "finance",
+        "safety"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Indian Oil Corporation (IOCL) in Oil and Gas.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "ONGC",
+      "job_title": "Oil and Gas Trainee Intern",
+      "sector": "Oil and Gas",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "M.Tech",
+        "M.Sc"
+      ],
+      "skills_and_competencies": [
+        "petroleum engineering",
+        "mechanical engineering",
+        "geology",
+        "operations",
+        "data analysis"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with ONGC in Oil and Gas.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Bharat Electronics Limited (BEL)",
+      "job_title": "Defence Electronics Trainee Intern",
+      "sector": "Defence Electronics",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "M.Tech"
+      ],
+      "skills_and_competencies": [
+        "electronics",
+        "embedded systems",
+        "communication",
+        "python",
+        "c++"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Bharat Electronics Limited (BEL) in Defence Electronics.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "ISRO",
+      "job_title": "Space Research Trainee Intern",
+      "sector": "Space Research",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "M.Tech",
+        "M.Sc"
+      ],
+      "skills_and_competencies": [
+        "aerospace",
+        "electronics",
+        "python",
+        "c++",
+        "research"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with ISRO in Space Research.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "DRDO",
+      "job_title": "Defence Research Trainee Intern",
+      "sector": "Defence Research",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "M.Tech",
+        "M.Sc"
+      ],
+      "skills_and_competencies": [
+        "electronics",
+        "mechanical engineering",
+        "python",
+        "research",
+        "embedded systems"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with DRDO in Defence Research.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "National Informatics Centre (NIC)",
+      "job_title": "Government Information Technology Trainee Intern",
+      "sector": "Government Information Technology",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "BCA",
+        "MCA"
+      ],
+      "skills_and_competencies": [
+        "python",
+        "java",
+        "web development",
+        "database",
+        "cybersecurity"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with National Informatics Centre (NIC) in Government Information Technology.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Indian Railways",
+      "job_title": "Transportation and Government Trainee Intern",
+      "sector": "Transportation and Government",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "BBA",
+        "MBA"
+      ],
+      "skills_and_competencies": [
+        "mechanical engineering",
+        "civil engineering",
+        "electronics",
+        "operations",
+        "management"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Indian Railways in Transportation and Government.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "LIC of India",
+      "job_title": "Insurance Trainee Intern",
+      "sector": "Insurance",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Com",
+        "BBA",
+        "BA",
+        "MBA"
+      ],
+      "skills_and_competencies": [
+        "finance",
+        "insurance",
+        "excel",
+        "accounting",
+        "customer service"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with LIC of India in Insurance.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Hindustan Aeronautics Limited (HAL)",
+      "job_title": "Aerospace and Defence Trainee Intern",
+      "sector": "Aerospace and Defence",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "M.Tech"
+      ],
+      "skills_and_competencies": [
+        "aerospace engineering",
+        "mechanical engineering",
+        "electronics",
+        "cad",
+        "manufacturing"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Hindustan Aeronautics Limited (HAL) in Aerospace and Defence.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Maruti Suzuki",
+      "job_title": "Automotive Trainee Intern",
+      "sector": "Automotive",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "BE",
+        "M.Tech",
+        "MBA"
+      ],
+      "skills_and_competencies": [
+        "mechanical engineering",
+        "automotive",
+        "manufacturing",
+        "cad",
+        "quality control"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Maruti Suzuki in Automotive.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Asian Paints",
+      "job_title": "Consumer Goods Trainee Intern",
+      "sector": "Consumer Goods",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "BBA",
+        "B.Com",
+        "BA",
+        "MBA",
+        "B.Tech"
+      ],
+      "skills_and_competencies": [
+        "marketing",
+        "sales",
+        "finance",
+        "data analysis",
+        "operations"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Asian Paints in Consumer Goods.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "Hindustan Unilever (HUL)",
+      "job_title": "FMCG Trainee Intern",
+      "sector": "FMCG",
+      "location": "Any",
+      "pay": "₹15,000 - ₹35,000 / month (PMIS Stipend)",
+      "job_type": "Govt PM Scheme Internship",
+      "qualifications_required": [
+        "BBA",
+        "B.Com",
+        "BA",
+        "MBA",
+        "B.Tech"
+      ],
+      "skills_and_competencies": [
+        "marketing",
+        "sales",
+        "finance",
+        "data analysis",
+        "supply chain"
+      ],
+      "work_location_type": "In person",
+      "description": "Official internship opportunity under Prime Minister's Internship Scheme with Hindustan Unilever (HUL) in FMCG.",
+      "apply_url": "#",
+      "source": "PMIS Partner",
+      "source_badge": "🏛️ PMIS Partner"
+    },
+    {
+      "company_name": "isaraerospace",
+      "job_title": "Working Student - AI Platform and Enablement (m/f/d)",
+      "sector": "Data Science & AI",
+      "location": "Parsdorf, Bavaria",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "enterprise it & data"
+      ],
+      "work_location_type": "In person",
+      "description": "&lt;p&gt;&lt;strong&gt;Mission Brief&amp;nbsp;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Isar Aerospace is building the launch company Europe needs: fast, vertically integrated, technically ambitious, and execution-driven.&lt;/p&gt; &lt;p&gt;We are currently building up our internal AI s...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/isaraerospace/working-student-ai-platform-and-enablement-parsdorf-bavaria-73173",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "isaraerospace",
+      "job_title": "AI & Data Platform Lead (m/f/d)",
+      "sector": "Data Science & AI",
+      "location": "Parsdorf, Bavaria",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "enterprise it & data"
+      ],
+      "work_location_type": "In person",
+      "description": "&lt;p&gt;&lt;strong&gt;Mission Brief&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Isar Aerospace is building the launch company Europe needs: fast, vertically integrated, technically ambitious, and execution-driven.&lt;/p&gt; &lt;p&gt;As we scale manufacturing, launch operations, engineerin...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/isaraerospace/ai-data-platform-lead-parsdorf-bavaria-380393",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "Rohlik",
+      "job_title": "Teamleiter (m/w/d)",
+      "sector": "Data Science & AI",
+      "location": "Bischofsheim bei Frankfurt, Germany",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "operations & supply chain"
+      ],
+      "work_location_type": "In person",
+      "description": "Unser Herz schlägt für hochwertige Lebensmittel. Unser Motto is(s)t: Eat well, Live well Die Stelle befindet sich in Bischofsheim bei Mainz (Gewerbegebiet) und ist in Vollzeit zu besetzen. Auf was du dich freuen kannst: Monatliches Fixgehalt Zusätzlich pro Arbeitstag 9,- Essenszu...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/rohlik/teamleiter-bischofsheim-445053",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "Rohlik",
+      "job_title": "Mitarbeiter für Obst & Gemüse/ Qualityselector fruits and vegetables (m/w/d)",
+      "sector": "Data Science & AI",
+      "location": "Garching bei München, Germany",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "operations & supply chain"
+      ],
+      "work_location_type": "In person",
+      "description": "Als Qualitätsmitarbeiter:in für Obst &amp; Gemüse trägst du die Verantwortung für die kontinuierliche Sicherstellung der Produktqualität in unserem Obst- und Gemüsebereich. Du bist ein entscheidender Teil unseres Logistikprozesses und sorgst dafür, dass unsere Kund:innen stets fr...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/rohlik/mitarbeiter-fur-obst-gemuse-qualityselector-fruits-and-vegetables-garching-bei-munchen-117805",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "encontec GmbH",
+      "job_title": "Strategischer Einkäufer Software und IT (m/w/d)",
+      "sector": "IT & Software",
+      "location": "Oberkochen , Baden-Württemberg, Deutschland",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "aü-zeiss"
+      ],
+      "work_location_type": "In person",
+      "description": "Strategischer Einkäufer Software und IT (m/w/d) Bei unserem namhaften Kunden im Raum Aalen - einem führenden Unternehmen der Hightechindustrie - bietet sich diese einmalige Perspektive im Rahmen der Arbeitnehmerüberlassung mit der Option auf Übernahme. Dein zukünftiger Tätigkeits...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/encontec-gmbh/strategischer-einkaufer-software-und-it-oberkochen-2150",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "encontec GmbH",
+      "job_title": "Projektmanager Software und Automatisierung (m/w/d)",
+      "sector": "IT & Software",
+      "location": "Oberkochen , Baden-Württemberg, Deutschland",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "aü-zeiss"
+      ],
+      "work_location_type": "In person",
+      "description": "Projektmanager Software und Automatisierung (m/w/d) Bei unserem namhaften Kunden im Raum Aalen - einem führenden Unternehmen der Hightechindustrie - bietet sich diese einmalige Perspektive im Rahmen der Arbeitnehmerüberlassung mit der Option auf Übernahme. Dein zukünftiger Tätigk...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/encontec-gmbh/projektmanager-software-und-automatisierung-oberkochen-422313",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "encontec GmbH",
+      "job_title": "Product Owner Softwareentwicklung (m/w/d)",
+      "sector": "IT & Software",
+      "location": "Oberkochen , Baden-Württemberg, Deutschland",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "aü-zeiss"
+      ],
+      "work_location_type": "In person",
+      "description": "Product Owner Softwareentwicklung (m/w/d) Bei unserem namhaften Kunden im Raum Aalen - einem führenden Unternehmen der Hightechindustrie - bietet sich diese einmalige Perspektive im Rahmen der Arbeitnehmerüberlassung mit der Option auf Übernahme. Dein zukünftiger Tätigkeitsbereic...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/encontec-gmbh/product-owner-softwareentwicklung-oberkochen-34166",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "encontec GmbH",
+      "job_title": "Senior Embedded Software Engineer (m/w/d)",
+      "sector": "IT & Software",
+      "location": "Aalen, Baden-Württemberg, Deutschland",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "aü-hensoldt"
+      ],
+      "work_location_type": "In person",
+      "description": "Senior Embedded Software Engineer (m/w/d) Willkommen in der faszinierenden Welt der Optronics! Komm in unser Team und profitiere von unseren zahlreichen Benefits! Dein zukünftiger Tätigkeitsbereich Konzeption, Entwicklung und Pflege einer querschnittlichen Softwareplattform für O...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/encontec-gmbh/senior-embedded-software-engineer-aalen-49241",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "virtual7 GmbH",
+      "job_title": "Kubernetes Administrator/Private Cloud Engineer (m/w/d)",
+      "sector": "IT & Software",
+      "location": "Remote",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "customer cluster justice",
+        "remote"
+      ],
+      "work_location_type": "Remote",
+      "description": "Als IT-Dienstleister treiben wir die Digitalisierung des öffentlichen Sektors voran und schaffen echten Mehrwert für Millionen Menschen in Deutschland. Wir können vieles richtig gut, aber eben noch nicht alles. Darum suchen wir immer wieder neue Kolleg:innen, die mit ihren Ideen,...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/virtual7-gmbh/remote-kubernetes-administrator-private-cloud-engineer-karlsruhe-233097",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "virtual7 GmbH",
+      "job_title": "Senior Java Fullstack Developer (m/w/d)",
+      "sector": "Banking & Finance",
+      "location": "Kaarst, Nordrhein-Westfalen, Deutschland",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "customer cluster finance"
+      ],
+      "work_location_type": "In person",
+      "description": "Als IT-Dienstleister treiben wir die Digitalisierung des öffentlichen Sektors voran und schaffen echten Mehrwert für Millionen Menschen in Deutschland. Wir können vieles richtig gut, aber eben noch nicht alles. Darum suchen wir immer wieder neue Kolleg:innen, die mit ihren Ideen,...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/virtual7-gmbh/senior-java-fullstack-developer-kaarst-419962",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "virtual7 GmbH",
+      "job_title": "Senior Java Fullstack Developer mit technischem Fokus (m/w/d)",
+      "sector": "Banking & Finance",
+      "location": "Kaarst, Nordrhein-Westfalen, Deutschland",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "customer cluster finance"
+      ],
+      "work_location_type": "In person",
+      "description": "Als IT-Dienstleister treiben wir die Digitalisierung des öffentlichen Sektors voran und schaffen echten Mehrwert für Millionen Menschen in Deutschland. Wir können vieles richtig gut, aber eben noch nicht alles. Darum suchen wir immer wieder neue Kolleg:innen, die mit ihren Ideen,...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/virtual7-gmbh/senior-java-fullstack-developer-mit-technischem-fokus-kaarst-197055",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "virtual7 GmbH",
+      "job_title": "AI Solution Architect (m/w/d)",
+      "sector": "IT & Software",
+      "location": "Remote",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "customer cluster environment",
+        "transportation & energy",
+        "remote"
+      ],
+      "work_location_type": "Remote",
+      "description": "Als IT-Dienstleister treiben wir die Digitalisierung des öffentlichen Sektors voran und schaffen echten Mehrwert für Millionen Menschen in Deutschland. Wir können vieles richtig gut, aber eben noch nicht alles. Darum suchen wir immer wieder neue Kolleg:innen, die mit ihren Ideen,...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/virtual7-gmbh/remote-ai-solution-architect-nurnberg-mittelfranken-115971",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "Wire 1",
+      "job_title": "Product Owner (f/m/d)",
+      "sector": "IT & Software",
+      "location": "Berlin",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "product manager",
+        "technical prodcut manager",
+        "wire",
+        "cyber security",
+        "secure messeging",
+        "secure colloboration"
+      ],
+      "work_location_type": "In person",
+      "description": "Find Jobs in Germany on Arbeitnow",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/wire-1/product-owner-berlin-425629",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "RCKT GmbH",
+      "job_title": "Intern Consultancy / Public Sector (m/w/d)",
+      "sector": "IT & Software",
+      "location": "Berlin",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "consulting",
+        "high school or equivalent"
+      ],
+      "work_location_type": "In person",
+      "description": "Wir suchen eine:n Praktikant:in Communications Consultant (m/w/d) (6 Monate) für unsere Digitalberatung in Berlin In unserem Praktikum im Bereich Communication Consultancy arbeitest du an Projekten für Ministerien, Startups und Verbände. Du unterstützt bei der Pflege von Websites...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/rckt-gmbh/intern-consultancy-public-sector-berlin-272114",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "Appsfactory GmbH",
+      "job_title": "Werkstudent (m/f/d) | Office Management",
+      "sector": "IT & Software",
+      "location": "Köln",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "werkstudium",
+        "werksstudium",
+        "werksstudent",
+        "werksstudentin",
+        "assistenz",
+        "assistent",
+        "assistentin",
+        "büro",
+        "officemanagement",
+        "köln",
+        "rezeption",
+        "empfang",
+        "telefon",
+        "kundenbetreuung"
+      ],
+      "work_location_type": "In person",
+      "description": "Beschreibung Du brennst für perfekte Organisation, hast Freude am Umgang mit Menschen und möchtest den reibungslosen Ablauf in unserem Büro aktiv mitgestalten? Als Teil unseres Teams bei Appsfactory kannst du direkt durchstarten und deinen Beitrag zum gemeinsamen Erfolg leisten. ...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/appsfactory-gmbh/werkstudent-office-management-koln-275385",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "Appsfactory GmbH",
+      "job_title": "Senior Brand / Visual Designer (m/f/d)",
+      "sector": "IT & Software",
+      "location": "Berlin",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "problem solving",
+        "communication",
+        "technology"
+      ],
+      "work_location_type": "In person",
+      "description": "#NEWISBEAUTIFUL Your mission You are a confident visual designer, creative storyteller and cultural thinker. You drive the creative output of brand-focused projects and work closely with teams and clients to develop strong brand narratives, identities and experiences. Brands toda...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/appsfactory-gmbh/senior-brand-visual-designer-berlin-145499",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "JSR",
+      "job_title": "Steuerfachangestellte/r (m/w/d)",
+      "sector": "Banking & Finance",
+      "location": "Berlin",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "finance"
+      ],
+      "work_location_type": "In person",
+      "description": "Du möchtest nicht nur Zahlen bearbeiten, sondern Mandantinnen und Mandanten wirklich weiterbringen? Du arbeitest gerne strukturiert, verantwortungsvoll und mit modernen digitalen Tools? Dann passt du zu uns. Die JSR Steuerberatungsgesellschaft mbH ist eine moderne Steuerkanzlei i...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/jsr/steuerfachangestellte-r-berlin-49538",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "wppmedia",
+      "job_title": " Senior Digital Marketing Manager (Mensch) Programmatic Advertising Nestlé",
+      "sector": "IT & Software",
+      "location": "Dusseldorf",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "client teams"
+      ],
+      "work_location_type": "In person",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong&gt;About WPP Media&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;WPP is the trusted growth partner for the world’s leading brands. With exceptional talent, trusted data and intelligence, and world-class partnerships – all united ...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/wppmedia/senior-digital-marketing-manager-mensch-programmatic-advertising-nestle-dusseldorf-382188",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "Raisin",
+      "job_title": "Bank Relationship and Analytics Manager (m/f/d)",
+      "sector": "IT & Software",
+      "location": "Berlin, Berlin",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "deposits"
+      ],
+      "work_location_type": "In person",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p class=&quot;sc-gEkIjz cjtSrT MuiTypography-root MuiTypography-body1 sc-hoLEA&quot;&gt;Raisin is the world’s leading platform for savings and investment products. Founded in 2012, the&amp;nbsp;&lt;strong&gt;FinTech&lt;/strong&gt; co...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/raisin/bank-relationship-and-analytics-manager-berlin-berlin-456484",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "commercetools",
+      "job_title": "Principal Engineer, Product Security (m/f/x)",
+      "sector": "IT & Software",
+      "location": "München, Bayern",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "engineering"
+      ],
+      "work_location_type": "In person",
+      "description": "&lt;div class=&quot;ng-tns-c879422873-771&quot;&gt; &lt;section id=&quot;processing-state-26&quot; class=&quot;processing-state_container ng-tns-c879422873-771 is-gpi-avatar is-done-processing ng-trigger ng-trigger-processingStateShowHide ng-star-inserted&quot;&gt; &lt;div id=&qu...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/commercetools/principal-engineer-product-security-munchen-bayern-353065",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "commercetools",
+      "job_title": "Principal Engineer, Product Security (m/f/x)",
+      "sector": "IT & Software",
+      "location": "Berlin",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "engineering"
+      ],
+      "work_location_type": "In person",
+      "description": "&lt;div class=&quot;ng-tns-c879422873-771&quot;&gt; &lt;section id=&quot;processing-state-26&quot; class=&quot;processing-state_container ng-tns-c879422873-771 is-gpi-avatar is-done-processing ng-trigger ng-trigger-processingStateShowHide ng-star-inserted&quot;&gt; &lt;div id=&qu...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/commercetools/principal-engineer-product-security-berlin-442587",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "voize",
+      "job_title": "Finance Manager - AI Native (m/f/d)",
+      "sector": "IT & Software",
+      "location": "Berlin",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "operations"
+      ],
+      "work_location_type": "In person",
+      "description": "🎤 Why voize? Because we’re more than just a job! At voize, we believe the greatest gift to frontline workers is time - time to care, connect, and be present. Today, that time is lost to busywork and complex systems that pull them away from what matters most: people . Our vision i...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/voize/finance-manager-ai-native-berlin-427486",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "Taxforce",
+      "job_title": "Lohnbuchhalter:in (m/w/d) - Startup",
+      "sector": "IT & Software",
+      "location": "Berlin",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "taxops"
+      ],
+      "work_location_type": "In person",
+      "description": "Taxforce baut eine moderne, KI-gestützte Steuerkanzlei. Wir kombinieren klassische steuerliche Qualität mit digitalen Prozessen und bauen unsere Kanzlei bewusst ohne gewachsene Altstrukturen auf. Deine Aufgaben Eigenständige und zuverlässige Betreuung fester Mandate im Bereich Lo...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/taxforce/lohnbuchhalterin-startup-berlin-346667",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "Taxforce",
+      "job_title": "Bilanzbuchhalter:in / Buchhalter:in (m/w/d) - Startup",
+      "sector": "IT & Software",
+      "location": "Berlin",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "taxops"
+      ],
+      "work_location_type": "In person",
+      "description": "Finanzbuchhaltung &amp; Abschlüsse Taxforce baut eine moderne, KI-gestützte Steuerkanzlei. Wir kombinieren klassische steuerliche Qualität mit digitalen Prozessen und bauen unsere Kanzlei bewusst ohne gewachsene Altstrukturen auf. Deine Aufgaben Eigenständige und zuverlässige Bet...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/taxforce/bilanzbuchhalterin-buchhalterin-startup-berlin-103331",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "Wimex-Gruppe",
+      "job_title": "Manager / Director Bereich Tierhaltung Geflügel (m/w/d)",
+      "sector": "IT & Software",
+      "location": "Köthen OT Baasdorf, Sachsen-Anhalt, Deutschland",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "wimex agrarprodukte import und export gmbh"
+      ],
+      "work_location_type": "In person",
+      "description": "Die Wimex Group ist ein familiengeführtes Unternehmen in der Landwirtschaft, das seit 1985 kontinuierlich wächst und nachhaltig wirtschaftet. Als mittelständischer Betrieb verbinden wir Tradition mit Innovation und setzen auf zukunftsorientierte Technologien, um hochwertige Produ...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/wimex-gruppe/manager-director-bereich-tierhaltung-geflugel-kothen-ot-baasdorf-64524",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "Hubject GmbH",
+      "job_title": "Senior Financial Analyst (all genders)",
+      "sector": "Banking & Finance",
+      "location": "Deutschland: Berlin",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "hubject",
+        "ev",
+        "ev charging",
+        "finance",
+        "analyst",
+        "forecasting",
+        "business partnering"
+      ],
+      "work_location_type": "In person",
+      "description": "Find more English Speaking Jobs in Germany on Arbeitnow",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/hubject-gmbh/senior-financial-analyst-all-genders-deutschland-berlin-264655",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "pmX Group",
+      "job_title": "Solution Architect (m/w/d)",
+      "sector": "IT & Software",
+      "location": "Stuttgart",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "entwicklung",
+        "elektronik",
+        "soundsysteme",
+        "fahrzeugintegration",
+        "projektmanagement",
+        "reifegradprozess",
+        "komponentenentwicklung",
+        "diagnose",
+        "automotive"
+      ],
+      "work_location_type": "In person",
+      "description": "Deine Aufgaben Entwicklung und Tuning von High-End Soundsystemen mit separierten akustischen Zonen Koordination und Steuerung der Entwicklung von Systemfunktionen mit Entwicklungspartnern Projektmanagement und Organisation im Aufbau von Prototypen und Erprobungsträgern Organisati...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/pmx-group/solution-architect-stuttgart-140910",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "pmX Group",
+      "job_title": "Senior Photonik-Charakterisierungsingenieur (m/w/d)",
+      "sector": "IT & Software",
+      "location": "Stuttgart",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "problem solving",
+        "communication",
+        "technology"
+      ],
+      "work_location_type": "In person",
+      "description": "Deine Aufgaben Durchführung von High-Speed-Charakterisierungsmessungen im GHz-Bereich an TFLN-PICs und Photodioden Durchführung experimenteller Verifikationen und statistischer Analysen zur Ermittlung von Performance-Parametern Entwicklung, Aufbau und Optimierung optischer und RF...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/pmx-group/senior-photonik-charakterisierungsingenieur-stuttgart-473876",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "pmX Group",
+      "job_title": "Product Owner – Project Management Systems (m/w/d)",
+      "sector": "IT & Software",
+      "location": "München",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "problem solving",
+        "communication",
+        "technology"
+      ],
+      "work_location_type": "In person",
+      "description": "Deine Aufgaben Gestaltung und Weiterentwicklung einer unternehmensweiten Plattform für Portfolio- und Projektmanagement im Engineering in einem internationalen und funktionsübergreifenden Umfeld. Verantwortung als Business Owner für die Aufnahme, Konsolidierung und Priorisierung ...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/pmx-group/product-owner-project-management-systems-munchen-467152",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "pmX Group",
+      "job_title": "Data Analyst mit Schwerpunkt Power BI & Databricks (m/w/d)",
+      "sector": "Data Science & AI",
+      "location": "Stuttgart",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "data analyst",
+        "projektmanagement",
+        "data bricks",
+        "analysefähigkeiten",
+        "business intelligence",
+        "power-bi",
+        "dax",
+        "deutsch",
+        "englisch",
+        "google analytics oder vergleichbares analysetool",
+        "google analytics",
+        "informatik"
+      ],
+      "work_location_type": "In person",
+      "description": "Deine Aufgaben Analyse, Aufbereitung und Visualisierung komplexer Datenbestände Entwicklung aussagekräftiger Reports, Dashboards und Kennzahlensysteme mit Microsoft Power BI Erstellung und Optimierung von Datenmodellen sowie DAX-Abfragen Nutzung von Databricks zur Verarbeitung, A...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/pmx-group/data-analyst-mit-schwerpunkt-power-bi-databricks-stuttgart-351483",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "UnternehmerTUM gGmbH",
+      "job_title": "UVC Partners: Junior Value Creation Analyst - Intern or Working Student (f/m/d)",
+      "sector": "IT & Software",
+      "location": "München Kreativquartier",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "value creation",
+        "utum",
+        "munich",
+        "venture capital",
+        "startup",
+        "student"
+      ],
+      "work_location_type": "In person",
+      "description": "Über uns UVC Partners backs Europe’s most ambitious B2B tech founders building new category leaders with more than €800m in assets under management. From DeepTech to AI, the firm has invested in breakout startups including Isar Aerospace, Proxima Fusion, Q.ANT, Aleph Alpha, Tacto...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/unternehmertum-ggmbh/uvc-partners-junior-value-creation-analyst-intern-or-working-student-munchen-kreativquartier-251770",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "UnternehmerTUM gGmbH",
+      "job_title": "AI Architect (m/w/d)",
+      "sector": "IT & Software",
+      "location": "München Kreativquartier",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "problem solving",
+        "communication",
+        "technology"
+      ],
+      "work_location_type": "In person",
+      "description": "Über uns UnternehmerTUM ist Europas führendes Zentrum für Innovation und Gründung – und wir bauen gerade die technologische Grundlage dafür, wie eine ganze Organisation KI produktiv, sicher und wirksam einsetzt. Als AI Architect gestaltest du diese Grundlage: von der grundlegende...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/unternehmertum-ggmbh/ai-architect-munchen-kreativquartier-287651",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "Eraneos",
+      "job_title": "(Senior) Manager Business Value Chain",
+      "sector": "Marketing & Sales",
+      "location": "Hamburg, München, Düsseldorf, remote",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "unternehmensberatung",
+        "manufacturing",
+        "ingenieur",
+        "supply chain",
+        "business value chain",
+        "projektarbeit",
+        "projektmanagement",
+        "digitale transformation",
+        "vertrieb",
+        "sales",
+        "business development",
+        "führung",
+        "key account management"
+      ],
+      "work_location_type": "In person",
+      "description": "Das findest Du bei uns Bei Eraneos unterstützen wir Unternehmen dabei, komplexe Herausforderungen zu meistern und eine nachhaltige, digitale Zukunft zu gestalten. Als (Senior) Manager in unserem Production &amp; Operations Team übernimmst Du eine zentrale Rolle beim Ausbau unsere...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/eraneos/remote-senior-manager-business-value-chain-452007",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "Westwing Group SE",
+      "job_title": "Trainee Product Engineering (m/f/d)",
+      "sector": "Data Science & AI",
+      "location": "Munich Office",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "trainee",
+        "product",
+        "engineer",
+        "engineering"
+      ],
+      "work_location_type": "In person",
+      "description": "JOIN OUR TEAM As a Trainee Product Engineering you will play a key role in supporting the development of our next range of Westwing Collection products. You will work closely with our Buying and Creative teams to help bring our latest ideas to life, ensuring that the products we ...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/westwing-group-se/trainee-product-engineering-munich-office-265709",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "Westwing Group SE",
+      "job_title": "Senior Product Manager - Operations (m/f/d)",
+      "sector": "IT & Software",
+      "location": "Munich Office",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "product manager",
+        "operations",
+        "technology",
+        "senior"
+      ],
+      "work_location_type": "In person",
+      "description": "JOIN OUR TEAM As a Senior Product Manager , you will join our Technology team to drive the efficiency of Westwing's supply chain and fulfilment operations across Europe. Operating at the intersection of business and technology, you will partner with senior stakeholders to transla...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/westwing-group-se/senior-product-manager-operations-munich-office-469433",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "Westwing Group SE",
+      "job_title": "Senior Designer Customisable Furniture (m/f/d)",
+      "sector": "IT & Software",
+      "location": "Munich Office",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "design",
+        "customisable",
+        "furniture",
+        "senior"
+      ],
+      "work_location_type": "In person",
+      "description": "JOIN OUR TEAM As a Senior Designer Customisable Furniture , you’ll drive the creative vision for the newest category within our Westwing Collection, bringing innovative design, modular thinking, and strategic product development to life. You’ll play a key role in shaping this cat...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/westwing-group-se/senior-designer-customisable-furniture-munich-office-448812",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "Westwing Group SE",
+      "job_title": "Senior Data Analyst (m/f/d)",
+      "sector": "Marketing & Sales",
+      "location": "Munich Office",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "data",
+        "marketing",
+        "sql",
+        "python",
+        "streamlit",
+        "ai",
+        "automation"
+      ],
+      "work_location_type": "In person",
+      "description": "JOIN OUR TEAM As a Senior Data Analyst within the Marketing Analytics team, you will play a pivotal role in helping the marketing leadership team and marketing departments make better data-driven decisions. You will own several important data products (dashboards, business proces...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/westwing-group-se/senior-data-analyst-munich-office-472692",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "Westwing Group SE",
+      "job_title": "Product Manager Westwing Collection (m/f/d)",
+      "sector": "IT & Software",
+      "location": "Munich Office",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "product",
+        "product management",
+        "category"
+      ],
+      "work_location_type": "In person",
+      "description": "JOIN OUR TEAM As a Product Manager Westwing Collection , you will shape and drive the assortment strategy for your assigned product categories, owning the end-to-end product lifecycle from strategic planning to portfolio optimisation and commercial performance. You will define an...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/westwing-group-se/product-manager-westwing-collection-munich-office-399213",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "Westwing Group SE",
+      "job_title": "Product Engineer Customisable Furniture (m/f/d)",
+      "sector": "IT & Software",
+      "location": "Munich Office",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "engineer",
+        "product",
+        "customisable",
+        "furniture"
+      ],
+      "work_location_type": "In person",
+      "description": "JOIN OUR TEAM As a Product Engineer Customisable Furniture , you will play a key role in the development of our future Westwing Collection products, with a focus on our new customisable and modular furniture systems. You will work closely with our Buying and Creative teams to hel...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/westwing-group-se/product-engineer-customisable-furniture-munich-office-29095",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "Westwing Group SE",
+      "job_title": "Principal Business Development Collection Expansion (m/f/d)",
+      "sector": "IT & Software",
+      "location": "Munich Office",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "business development",
+        "collection",
+        "development"
+      ],
+      "work_location_type": "In person",
+      "description": "JOIN OUR TEAM As a Principal Business Development Collection Expansion , you'll lead the practical delivery of Westwing's expansion into our next markets. Your focus is on how we get there: running the expansion as a structured, well-governed project, connecting all workstreams, ...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/westwing-group-se/principal-business-development-collection-expansion-munich-office-392806",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "Ampeco Global",
+      "job_title": "Senior Solution Consultant (Pre-Sales) - DACH",
+      "sector": "Marketing & Sales",
+      "location": "Germany",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "pre-sales"
+      ],
+      "work_location_type": "In person",
+      "description": "AMPECO is one of the most innovative companies in the area of electric vehicle charging infrastructure – an industry that aims to change the world by making charging easier for everyone. As electric vehicles (EVs) are bringing in a transformation of our transport and mobility sec...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/ampeco-global/senior-solution-consultant-pre-sales-dach-germany-267150",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "nanuq GmbH",
+      "job_title": "Kalkulator:in Ladeinfrastruktur & Energieinfrastruktur (m/w/d)",
+      "sector": "IT & Software",
+      "location": "Cologne",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "process engineering"
+      ],
+      "work_location_type": "In person",
+      "description": "nanuq elektrifiziert den Schwerlast- und Flottenverkehr. Wir planen, bauen und betreiben Ladeinfrastruktur für Logistik- und Speditionsunternehmen, vom Depot mit vier Ladepunkten bis zum Ladepark mit Megawattanschluss. Dazu kommen Photovoltaik und Batteriespeicher, gesteuert über...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/nanuq-gmbh/kalkulatorin-ladeinfrastruktur-energieinfrastruktur-cologne-272248",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "FoxTalent",
+      "job_title": "Senior Business Development Officer",
+      "sector": "IT & Software",
+      "location": "Frankfurt am Main",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "business development"
+      ],
+      "work_location_type": "In person",
+      "description": "Aufgaben ▪ Sie sind der Hauptansprechpartner für alle Fragen des Kundenkontomanagements. ▪ Sie verhandeln Verträge und schließen Vereinbarungen ab, um den Gewinn zu maximieren. ▪ Sie bauen vertrauensvolle Beraterbeziehungen zu Großkunden, Kundenvertretern und Führungskräften auf....",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/foxtalent/senior-business-development-officer-frankfurt-am-main-456392",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "LikeGroup GmbH",
+      "job_title": "Werkstudent HR & Recruiting (m/w/d)",
+      "sector": "IT & Software",
+      "location": "Frankfurt am Main",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "hr"
+      ],
+      "work_location_type": "In person",
+      "description": "Die LikeGroup ist eine wachsende Agenturgruppe mit Sitz in Frankfurt am Main. Zur Unterstützung unseres Teams suchen wir eine engagierte Werkstudentin, die uns beim Recruiting, bei der Personaladministration und beim weiteren Aufbau unserer HR-Prozesse unterstützt. Die Position u...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/likegroup-gmbh/werkstudent-hr-recruiting-frankfurt-am-main-486544",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "Domainprofi GmbH",
+      "job_title": "PHP-Softwareentwickler (m/w/d) mit starkem KI-Fokus, Osnabrück",
+      "sector": "IT & Software",
+      "location": "Osnabrück",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "it"
+      ],
+      "work_location_type": "In person",
+      "description": "Die DomainProfi GmbH ist ein führendes Unternehmen im Bereich Domainverwaltung und Domainregistrierung. Mit einem engagierten Team von Experten bieten wir individuelle Lösungen für unsere Kunden weltweit. Zur Verstärkung unseres Entwicklerteams suchen wir einen erfahrenen PHP-Sof...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/domainprofi-gmbh/php-softwareentwickler-mit-starkem-ki-fokus-osnabruck-155165",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "Hebamme Isabelle",
+      "job_title": "Werkstudent Social Media & Content Creation (m/w/d)",
+      "sector": "Marketing & Sales",
+      "location": "Würzburg",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "marketing and communication"
+      ],
+      "work_location_type": "In person",
+      "description": "Hebamme Isabelle ist eine der bekanntesten Hebammen Deutschlands. Mit Instagram, Online-Kursen und einem Buch erreichen wir täglich tausende Familien. Unser Content lebt von echtem Wissen und authentischer Bildsprache. Für die Umsetzung suchen wir kreative Verstärkung. Aufgaben R...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/hebamme-isabelle/werkstudent-social-media-content-creation-wurzburg-95742",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "Domainprofi GmbH",
+      "job_title": "AI-First Softwareentwickler (m/w/d), Osnabrück",
+      "sector": "IT & Software",
+      "location": "Osnabrück",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "it"
+      ],
+      "work_location_type": "In person",
+      "description": "Die DomainProfi GmbH ist ein führendes Unternehmen im Bereich Domainverwaltung und Domainregistrierung. Mit einem engagierten Team von Experten bieten wir individuelle Lösungen für unsere Kunden weltweit. Zur Verstärkung unseres Entwicklerteams suchen wir einen innovativen AI-Fir...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/domainprofi-gmbh/ai-first-softwareentwickler-osnabruck-227778",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "wabcon",
+      "job_title": "Leiter:in Sicherheitstechnik, FFM, 90.000 - 110.000",
+      "sector": "IT & Software",
+      "location": "Frankfurt am Main",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "management",
+        "team leader"
+      ],
+      "work_location_type": "In person",
+      "description": "Unser Kunde ist einer der Marktführer im Bereich Sicherheitstechnologie und mehrfach ausgezeichnet als bester Arbeitgeber Deutschlands. Im Kundenauftrag suchen wir einen Leiter (m/w/d) Sicherheits- Videotechnik. Das zu führende Team besteht aus 10 Teammitgliedern, deren fachliche...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/wabcon/leiterin-sicherheitstechnik-ffm-90000-110000-frankfurt-am-main-110740",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "autoscout24",
+      "job_title": "(Senior) Manager Group Accounting (m/f/d)",
+      "sector": "Banking & Finance",
+      "location": "Any",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "finance"
+      ],
+      "work_location_type": "In person",
+      "description": "&lt;p&gt;&lt;strong&gt;A career driven by you.&lt;/strong&gt;&lt;br&gt;Join AutoScout24 Group and experience life in the fast lane. We’re not just leading the market; we’re creating it. We’re constantly innovating, evolving, and transforming things for our customers. We’re driven...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/autoscout24/senior-manager-group-accounting-49477",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "autoscout24",
+      "job_title": "Senior Content Manager SEO/AEO (m/w/d) befristet auf 1 Jahr",
+      "sector": "Marketing & Sales",
+      "location": "Any",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "marketing & communications"
+      ],
+      "work_location_type": "In person",
+      "description": "&lt;p&gt;Wir suchen dich als Senior Content Manager SEO/AEO (m/w/d), um unsere organische Sichtbarkeit über Suchmaschinen, AI-driven Search und Large Language Models strategisch weiterzuentwickeln. In dieser Rolle verbindest du redaktionelle Exzellenz mit datengetriebenem Organic...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/autoscout24/senior-content-manager-seo-aeo-befristet-auf-1-jahr-56854",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "autoscout24",
+      "job_title": "Senior Content Manager SEO/AEO (m/w/d)",
+      "sector": "Marketing & Sales",
+      "location": "Any",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "marketing & communications"
+      ],
+      "work_location_type": "In person",
+      "description": "&lt;p&gt;Wir suchen dich als Senior Content Manager SEO/AEO (m/w/d), um unsere organische Sichtbarkeit über Suchmaschinen, AI-driven Search und Large Language Models strategisch weiterzuentwickeln. In dieser Rolle verbindest du redaktionelle Exzellenz mit datengetriebenem Organic...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/autoscout24/senior-content-manager-seo-aeo-51981",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "autoscout24",
+      "job_title": "Network & Infrastructure Engineer (m/f/d)",
+      "sector": "IT & Software",
+      "location": "Any",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "it operations"
+      ],
+      "work_location_type": "In person",
+      "description": "&lt;p&gt;&lt;strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;A career driven by you. &lt;/span&gt;&lt;/strong&gt;&lt;span data-contrast=&quot;auto&quot;&gt;Join AutoScout24 Group and experience life in the fast lane. We’re not just leading the market; we’re creating it. We’r...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/autoscout24/network-infrastructure-engineer-66269",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "celonis",
+      "job_title": "Lead / Principal Consultant - Data and AI",
+      "sector": "IT & Software",
+      "location": "Munich",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "services"
+      ],
+      "work_location_type": "In person",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Celonis is the global leader in Process Intelligence and the pioneer of Process Mining technology. As one of the world’s fastest-growing enterprise SaaS companies, we are changemakers pushing the boundaries of what’s possible. W...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/celonis/lead-principal-consultant-data-and-ai-munich-360879",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "celonis",
+      "job_title": "Lead Deployment Architect - AI",
+      "sector": "IT & Software",
+      "location": "Munich",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "services"
+      ],
+      "work_location_type": "In person",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Celonis is the global leader in Process Intelligence and the pioneer of Process Mining technology. As one of the world’s fastest-growing enterprise SaaS companies, we are changemakers pushing the boundaries of what’s possible. W...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/celonis/lead-deployment-architect-ai-munich-32611",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "celonis",
+      "job_title": "Application Product Manager - AI System Transformations",
+      "sector": "IT & Software",
+      "location": "Munich",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "value engineering"
+      ],
+      "work_location_type": "In person",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;Celonis is the global leader in Process Intelligence and the pioneer of Process Mining technology. As one of the world’s fastest-growing enterprise SaaS companies, we are changemakers pushing the boundaries of what’s possible. W...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/celonis/application-product-manager-ai-system-transformations-munich-437790",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "Veeamsoftware",
+      "job_title": "Veeam Data Cloud Vault Solution Specialist",
+      "sector": "IT & Software",
+      "location": "Remote",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "public cloud solutions 1008239"
+      ],
+      "work_location_type": "Remote",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;div class=&quot;elementToProof&quot;&gt; &lt;p&gt;Veeam is the Data and AI Trust Company, specializing in helping organizations ensure their data and AI are fully understood, secured, and resilient to enable the acceleration of safe ...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/veeamsoftware/remote-veeam-data-cloud-vault-solution-specialist-215456",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "dkbcodefactory",
+      "job_title": "Junior Android Developer - Retail Banking (x,f,m)",
+      "sector": "IT & Software",
+      "location": "Berlin",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "technology & infrastructure"
+      ],
+      "work_location_type": "In person",
+      "description": "&lt;p&gt;&lt;strong&gt;We&lt;/strong&gt;&lt;strong&gt;lcome to DKB Code Factory….&amp;nbsp;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;span style=&quot;color: rgb(185, 106, 217);&quot;&gt;&lt;strong&gt;{ { … &lt;/strong&gt;&lt;strong&gt;a_place_to_stay_yourself:&lt;/strong&gt;&lt;/spa...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/dkbcodefactory/junior-android-developer-retail-banking-xfm-berlin-174642",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "Rematiq Gmbh",
+      "job_title": "Product Lead",
+      "sector": "IT & Software",
+      "location": "Berlin",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "product"
+      ],
+      "work_location_type": "In person",
+      "description": "Build the product engine behind the next generation of MedTech software. REMATIQ is building AI software that helps life sciences and medical device companies bring products to market faster, without compromising the quality, traceability and compliance their industry demands. We...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/rematiq-gmbh/product-lead-berlin-170435",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "Rematiq Gmbh",
+      "job_title": "Head of Finance and Operations",
+      "sector": "IT & Software",
+      "location": "Berlin",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "g&a"
+      ],
+      "work_location_type": "In person",
+      "description": "Join REMATIQ in revolutionizing medical innovation. Join us on our mission to help medical innovators bring life-saving products to market faster and safer. About REMATIQ REMATIQ builds AI software for life sciences and medical device companies. Our platform helps teams automate ...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/rematiq-gmbh/head-of-finance-and-operations-berlin-327630",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "Rematiq Gmbh",
+      "job_title": "AI Deployment Strategist",
+      "sector": "IT & Software",
+      "location": "Berlin",
+      "pay": "₹20,000 - ₹45,000 / month (or Equivalent)",
+      "job_type": "Internship / Full-time",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "B.Com",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "delivery"
+      ],
+      "work_location_type": "In person",
+      "description": "Join REMATIQ in revolutionizing medical innovation. Join us on our mission to help medical innovators bring life-saving products to market faster and safer. About REMATIQ REMATIQ builds AI software for life sciences and medical device companies. Our platform helps teams automate ...",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/rematiq-gmbh/ai-deployment-strategist-berlin-433089",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Live Web Opportunity"
+    },
+    {
+      "company_name": "Shatterproof",
+      "job_title": "Vice President, Technology & Digital Strategy",
+      "sector": "Enterprise Partner",
+      "location": "Remote / Flexible",
+      "pay": "Competitive Industry Stipend",
+      "job_type": "Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "business intelligence",
+        "cloud",
+        "salesforce",
+        "security",
+        "ai/ml",
+        "automation"
+      ],
+      "work_location_type": "Remote",
+      "description": "About ShatterproofShatterproof is a national nonprofit working toward a world where addiction never defines or ends a life. Through evidence-based programs, advocacy, and public education, Shatterproof works to transform systems for tomorrow, support families today, and end stigm...",
+      "apply_url": "https://remotive.com/remote-jobs/all-others/vice-president-technology-digital-strategy-2091104",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Remote Global Opportunity"
+    },
+    {
+      "company_name": "Lemon.io",
+      "job_title": "Senior Data Engineer",
+      "sector": "IT & Software",
+      "location": "Remote / Flexible",
+      "pay": "Competitive Industry Stipend",
+      "job_type": "Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        ".net",
+        "android",
+        "apache",
+        "aws",
+        "azure",
+        "c"
+      ],
+      "work_location_type": "Remote",
+      "description": "Are you a talented Senior Data Engineer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io — the marketplace that connects you with hand-picked startups in the US and Europe. What we offer: The rate depends on your s...",
+      "apply_url": "https://remotive.com/remote-jobs/software-development/senior-data-engineer-2091097",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Remote Global Opportunity"
+    },
+    {
+      "company_name": "A.Team",
+      "job_title": "Senior Independent AI Engineer / Architect",
+      "sector": "IT & Software",
+      "location": "Remote / Flexible",
+      "pay": "Competitive Industry Stipend",
+      "job_type": "Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "go",
+        "ui/ux",
+        "wordpress",
+        "chat",
+        "apple",
+        "testing"
+      ],
+      "work_location_type": "Remote",
+      "description": "Senior Independent AI Engineer / Architect Remote | Americas, Europe, or Israel Most AI engineers can find work. Finding work worth doing is harder. A.Team is an invite-only network of senior AI engineers, ML engineers, and AI architects building production AI systems for startup...",
+      "apply_url": "https://remotive.com/remote-jobs/software-development/senior-independent-ai-engineer-architect-1919266",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Remote Global Opportunity"
+    },
+    {
+      "company_name": "A.Team",
+      "job_title": "Senior Independent Software Developer",
+      "sector": "IT & Software",
+      "location": "Remote / Flexible",
+      "pay": "Competitive Industry Stipend",
+      "job_type": "Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "go",
+        "wordpress",
+        "chat",
+        "apple",
+        "testing",
+        "catalyst"
+      ],
+      "work_location_type": "Remote",
+      "description": "You must be located in the Americas, Europe, or Israel to apply. A·Team is a VC-backed, stealth, application-only home on the internet for senior independent software builders to team up with hand-picked, high-growth companies on their next big thing. After talking with hundreds ...",
+      "apply_url": "https://remotive.com/remote-jobs/software-development/senior-independent-software-developer-1919265",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Remote Global Opportunity"
+    },
+    {
+      "company_name": "garden3d",
+      "job_title": "Head of Marketing & Communications",
+      "sector": "Enterprise Partner",
+      "location": "Remote / Flexible",
+      "pay": "Competitive Industry Stipend",
+      "job_type": "Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "c",
+        "video",
+        "open source",
+        "ai/ml",
+        "figma",
+        "project management"
+      ],
+      "work_location_type": "Remote",
+      "description": "We are hiring a Head of Marketing &amp; Communications to tell the garden3d story across the internet, from wherever in the world you happen to be. More details if you check our original job posting link About garden3d We are worker owned creative collective, innovating on everyt...",
+      "apply_url": "https://remotive.com/remote-jobs/marketing/head-of-marketing-communications-2091068",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Remote Global Opportunity"
+    },
+    {
+      "company_name": "Mitre Media",
+      "job_title": "Tech Lead Full-Stack Rails Engineer",
+      "sector": "IT & Software",
+      "location": "Remote / Flexible",
+      "pay": "Competitive Industry Stipend",
+      "job_type": "Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "api",
+        "css",
+        "docker",
+        "elasticsearch",
+        "fullstack",
+        "html"
+      ],
+      "work_location_type": "Remote",
+      "description": "About Mitre Media Mitre Media is redefining FinTech with AI-driven tools that empower millions of investors. Our portfolio, including Dividend.com and MutualFunds.com, leverages LLMs to deliver novel data insights and visually rich user experiences. For over a decade, we’ve serve...",
+      "apply_url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Remote Global Opportunity"
+    },
+    {
+      "company_name": "TELUS Digital",
+      "job_title": "Face Deduplication Collection",
+      "sector": "Enterprise Partner",
+      "location": "Remote / Flexible",
+      "pay": "Competitive Industry Stipend",
+      "job_type": "Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "research"
+      ],
+      "work_location_type": "Remote",
+      "description": "The project compensation rate is $0.55 USD per accepted image. The objective of this project is to collect a large and diverse dataset of current neutral selfies, head-pose captures, and historical facial images to support machine-learning research and facial recognition model tr...",
+      "apply_url": "https://remotive.com/remote-jobs/all-others/face-deduplication-collection-2091093",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Remote Global Opportunity"
+    },
+    {
+      "company_name": "Coalition Technologies ",
+      "job_title": "Remote Office Assistant",
+      "sector": "Enterprise Partner",
+      "location": "Remote / Flexible",
+      "pay": "Competitive Industry Stipend",
+      "job_type": "Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "css",
+        "excel",
+        "frontend",
+        "git",
+        "html",
+        "illustrator"
+      ],
+      "work_location_type": "Remote",
+      "description": "Coalition Technologies is seeking a reliable, detail-oriented, and highly organized Remote Office Assistant to support administrative, bookkeeping, billing, reporting, data entry, and internal operations tasks. This role is ideal for someone with strong communication skills, disc...",
+      "apply_url": "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Remote Global Opportunity"
+    },
+    {
+      "company_name": "Credit Wellness, LLC",
+      "job_title": "Inside Sales Contractor",
+      "sector": "Enterprise Partner",
+      "location": "Remote / Flexible",
+      "pay": "Competitive Industry Stipend",
+      "job_type": "Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "crm",
+        "google sheets",
+        "financial services",
+        "inside sales"
+      ],
+      "work_location_type": "Remote",
+      "description": "About Us We are a financial services start up focusing on helping to improve consumer credit profiles. We are currently seeking KPI driven sales representatives looking to earn up to 45K in their first year while working remotely. We offer comprehensive training and continuous sa...",
+      "apply_url": "https://remotive.com/remote-jobs/sales/inside-sales-contractor-2086540",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Remote Global Opportunity"
+    },
+    {
+      "company_name": "Unio Digital",
+      "job_title": "Tier III Service Desk Engineer",
+      "sector": "Enterprise Partner",
+      "location": "Remote / Flexible",
+      "pay": "Competitive Industry Stipend",
+      "job_type": "Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "azure",
+        "cisco",
+        "security",
+        "video",
+        "documentation",
+        "hardware"
+      ],
+      "work_location_type": "Remote",
+      "description": "Unió Digital is an Arizona-based managed service provider (MSP) delivering Managed IT Services, Low Voltage Cabling, Access Control, Video Surveillance, and Intrusion Services. We believe technology should be intuitive, not intimidating. We are looking for an experienced Tier 3 S...",
+      "apply_url": "https://remotive.com/remote-jobs/information-technology/tier-iii-service-desk-engineer-2091045",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Remote Global Opportunity"
+    },
+    {
+      "company_name": "Creative Force ",
+      "job_title": "Sales Jedi",
+      "sector": "Enterprise Partner",
+      "location": "Remote / Flexible",
+      "pay": "Competitive Industry Stipend",
+      "job_type": "Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "saas",
+        "video",
+        "solid",
+        "chat",
+        "saas sales",
+        "mental health"
+      ],
+      "work_location_type": "Remote",
+      "description": "Great salary | Profit share | 100% remote | Work from anywhere in Europe | SaaS Awesome opportunity for a self-motivated and energetic people person to join our remote team and help sell our world-leading SaaS products, from anywhere in Europe. We pay a great salary, based on exp...",
+      "apply_url": "https://remotive.com/remote-jobs/sales/sales-jedi-2091088",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Remote Global Opportunity"
+    },
+    {
+      "company_name": "Creative Force",
+      "job_title": "SaaS Product Support Jedi",
+      "sector": "Enterprise Partner",
+      "location": "Remote / Flexible",
+      "pay": "Competitive Industry Stipend",
+      "job_type": "Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "api",
+        "css",
+        "go",
+        "html",
+        "javascript",
+        "saas"
+      ],
+      "work_location_type": "Remote",
+      "description": "We’re on the hunt for a sharp, self-driven SaaS pro who’s as comfortable troubleshooting API and integrations as they are navigating human conversations. Our European client base is growing fast and we need someone who can keep up. Our software isn’t your average plug-and-play; i...",
+      "apply_url": "https://remotive.com/remote-jobs/customer-service/saas-product-support-jedi-2091087",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Remote Global Opportunity"
+    },
+    {
+      "company_name": "IAPWE",
+      "job_title": "Freelance Writer",
+      "sector": "Enterprise Partner",
+      "location": "Remote / Flexible",
+      "pay": "Competitive Industry Stipend",
+      "job_type": "Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "rest"
+      ],
+      "work_location_type": "Remote",
+      "description": "Our organization is seeking content writers to create articles and blog posts on a variety of topics. The rate of pay is $20 per 100 words (this comes out to approximately $100 per article or $50 per hour). Some topics you may be asked to write about include the following (you ca...",
+      "apply_url": "https://remotive.com/remote-jobs/writing/freelance-writer-1185979",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Remote Global Opportunity"
+    },
+    {
+      "company_name": "Coalition Technologies ",
+      "job_title": "Freelance Copywriter",
+      "sector": "Enterprise Partner",
+      "location": "Remote / Flexible",
+      "pay": "Competitive Industry Stipend",
+      "job_type": "Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "accounting",
+        "excel",
+        "research",
+        "data analysis",
+        "bookkeeping",
+        "google sheets"
+      ],
+      "work_location_type": "Remote",
+      "description": "CT Marketing Agency is seeking skilled Freelance Copywriters to write high-quality, SEO-driven content for eCommerce and lead generation websites. This is a freelance, project-based writing role. The ideal candidate has excellent English writing skills, strong research ability, a...",
+      "apply_url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Remote Global Opportunity"
+    },
+    {
+      "company_name": "Lemon.io",
+      "job_title": "Senior Graphic Designer",
+      "sector": "Enterprise Partner",
+      "location": "Remote / Flexible",
+      "pay": "Competitive Industry Stipend",
+      "job_type": "Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        ".net",
+        "android",
+        "c",
+        "c#",
+        "c++",
+        "data science"
+      ],
+      "work_location_type": "Remote",
+      "description": "Are you a talented Senior Designer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io — the marketplace that connects you with hand-picked startups in the US and Europe. What we offer: The rate depends on your skills...",
+      "apply_url": "https://remotive.com/remote-jobs/design/senior-graphic-designer-2091081",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Remote Global Opportunity"
+    },
+    {
+      "company_name": "Workada",
+      "job_title": "Data Labeling Specialists",
+      "sector": "Enterprise Partner",
+      "location": "Remote / Flexible",
+      "pay": "Competitive Industry Stipend",
+      "job_type": "Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "research",
+        "digital content",
+        "spreadsheets"
+      ],
+      "work_location_type": "Remote",
+      "description": "Who We Are Workada creates high-quality labeled data for advanced technology systems. Our team reviews, organizes, categorizes, evaluates, and quality-checks digital content so those systems can better understand information and perform real-world tasks. We believe careful data w...",
+      "apply_url": "https://remotive.com/remote-jobs/data/data-labeling-specialists-2090903",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Remote Global Opportunity"
+    },
+    {
+      "company_name": "Outsite",
+      "job_title": "Business Development Representative",
+      "sector": "Enterprise Partner",
+      "location": "Remote / Flexible",
+      "pay": "Competitive Industry Stipend",
+      "job_type": "Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "ai/ml",
+        "crm",
+        "business development",
+        "account management",
+        "partnerships",
+        "startup"
+      ],
+      "work_location_type": "Remote",
+      "description": "## About Outsite Outsite is a global coliving company for remote workers — hotel-quality service, extended-stay flexibility, and a built-in community, at the intersection of hospitality and lifestyle. We operate 40+ properties across 21+ cities on 5 continents, with 6,000+ verifi...",
+      "apply_url": "https://remotive.com/remote-jobs/sales/business-development-representative-2091075",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Remote Global Opportunity"
+    },
+    {
+      "company_name": "TELUS Digital",
+      "job_title": "Content Reviewer - United States",
+      "sector": "Enterprise Partner",
+      "location": "Remote / Flexible",
+      "pay": "Competitive Industry Stipend",
+      "job_type": "Internship",
+      "qualifications_required": [
+        "B.Tech",
+        "B.Sc",
+        "BCA",
+        "Any"
+      ],
+      "skills_and_competencies": [
+        "android",
+        "ios",
+        "social media",
+        "ai/ml"
+      ],
+      "work_location_type": "Remote",
+      "description": "We are looking for an independent, flexible, remote opportunity where you can help improve AI-powered search technology from the comfort of your home? If you're curious, internet-savvy, and enjoy evaluating online content, this freelance project could be a great fit. A Day in the...",
+      "apply_url": "https://remotive.com/remote-jobs/all-others/content-reviewer-united-states-2091074",
+      "source": "Live Web Feed",
+      "source_badge": "🌐 Remote Global Opportunity"
+    }
+  ]
+}

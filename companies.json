@@ -1,0 +1,429 @@
+[
+    {
+        "name": "Tata Steel",
+        "sector": "Manufacturing",
+        "skills": ["mechanical", "data analysis", "python", "metallurgy"],
+        "degrees": ["B.Tech", "B.Sc"],
+        "location": "Any"
+    },
+    {
+        "name": "Reliance Industries",
+        "sector": "Energy & Telecom",
+        "skills": ["python", "marketing", "data analysis", "finance"],
+        "degrees": ["B.Tech", "B.Com", "BBA"],
+        "location": "Mumbai"
+    },
+    {
+        "name": "Mahindra & Mahindra",
+        "sector": "Automotive",
+        "skills": ["mechanical", "electrical", "supply chain", "autoCAD"],
+        "degrees": ["B.Tech", "B.E."],
+        "location": "Any"
+    },
+    {
+        "name": "Larsen & Toubro (L&T)",
+        "sector": "Infrastructure",
+        "skills": ["civil", "electrical", "project management", "autoCAD"],
+        "degrees": ["B.Tech", "B.E."],
+        "location": "Any"
+    },
+    {
+        "name": "Infosys",
+        "sector": "IT & Software",
+        "skills": ["python", "java", "data analysis", "web development"],
+        "degrees": ["B.Tech", "B.Sc", "BCA"],
+        "location": "Bangalore"
+    },
+    {
+        "name": "HDFC Bank",
+        "sector": "Banking & Finance",
+        "skills": ["finance", "excel", "data analysis", "economics"],
+        "degrees": ["B.Com", "BBA", "BA"],
+        "location": "Mumbai"
+    },
+    {
+        "name": "ITC Limited",
+        "sector": "FMCG",
+        "skills": ["marketing", "supply chain", "data analysis", "sales"],
+        "degrees": ["BBA", "B.Com", "B.Tech"],
+        "location": "Any"
+    },
+    {
+        "name": "Indian Oil Corporation",
+        "sector": "Public Sector / Energy",
+        "skills": ["chemical", "mechanical", "data analysis", "safety"],
+        "degrees": ["B.Tech", "B.Sc"],
+        "location": "Delhi"
+    },
+    {
+        "name": "Bharat Electronics (BEL)",
+        "sector": "Defense / Electronics",
+        "skills": ["electrical", "electronics", "python", "hardware"],
+        "degrees": ["B.Tech", "B.E."],
+        "location": "Bangalore"
+    },
+    {
+        "name": "State Bank of India (SBI)",
+        "sector": "Public Sector Banking",
+        "skills": ["finance", "excel", "customer service", "economics"],
+        "degrees": ["B.Com", "BA", "BBA"],
+        "location": "Any"
+    },
+    {
+        "name": "State Bank of India (SBI)",
+        "sector": "Public Sector Banking",
+        "skills": ["finance", "excel", "customer service", "economics"],
+        "degrees": ["B.Com", "BA", "BBA"],
+        "location": "Any"
+    },
+    {
+        "name": "HDFC Bank",
+        "sector": "Private Sector Banking",
+        "skills": ["finance", "excel", "banking", "customer service"],
+        "degrees": ["B.Com", "BBA", "MBA", "BA"],
+        "location": "Any"
+    },
+    {
+        "name": "ICICI Bank",
+        "sector": "Private Sector Banking",
+        "skills": ["finance", "banking", "excel", "data analysis"],
+        "degrees": ["B.Com", "BBA", "MBA", "BA"],
+        "location": "Any"
+    },
+    {
+        "name": "Axis Bank",
+        "sector": "Private Sector Banking",
+        "skills": ["finance", "banking", "sales", "customer service"],
+        "degrees": ["B.Com", "BBA", "MBA", "BA"],
+        "location": "Any"
+    },
+    {
+        "name": "Kotak Mahindra Bank",
+        "sector": "Private Sector Banking",
+        "skills": ["finance", "banking", "excel", "analytics"],
+        "degrees": ["B.Com", "BBA", "MBA", "BA"],
+        "location": "Any"
+    },
+    {
+        "name": "Tata Consultancy Services (TCS)",
+        "sector": "Information Technology",
+        "skills": ["java", "python", "sql", "cloud", "data analysis"],
+        "degrees": ["B.Tech", "BE", "BCA", "MCA"],
+        "location": "Any"
+    },
+    {
+        "name": "Infosys",
+        "sector": "Information Technology",
+        "skills": ["java", "python", "sql", "web development", "cloud"],
+        "degrees": ["B.Tech", "BE", "BCA", "MCA"],
+        "location": "Any"
+    },
+    {
+        "name": "Wipro",
+        "sector": "Information Technology",
+        "skills": ["python", "java", "sql", "cloud computing", "testing"],
+        "degrees": ["B.Tech", "BE", "BCA", "MCA"],
+        "location": "Any"
+    },
+    {
+        "name": "HCLTech",
+        "sector": "Information Technology",
+        "skills": ["java", "python", "cloud", "cybersecurity", "sql"],
+        "degrees": ["B.Tech", "BE", "BCA", "MCA"],
+        "location": "Any"
+    },
+    {
+        "name": "Tech Mahindra",
+        "sector": "Information Technology",
+        "skills": ["java", "python", "networking", "cloud", "sql"],
+        "degrees": ["B.Tech", "BE", "BCA", "MCA"],
+        "location": "Any"
+    },
+    {
+        "name": "Accenture",
+        "sector": "IT Consulting",
+        "skills": ["python", "sql", "cloud", "data analysis", "consulting"],
+        "degrees": ["B.Tech", "BE", "BCA", "MCA", "MBA"],
+        "location": "Any"
+    },
+    {
+        "name": "Deloitte",
+        "sector": "Consulting and Professional Services",
+        "skills": ["data analysis", "excel", "finance", "consulting", "sql"],
+        "degrees": ["B.Com", "BBA", "B.Tech", "MBA", "CA"],
+        "location": "Any"
+    },
+    {
+        "name": "Ernst & Young (EY)",
+        "sector": "Consulting and Professional Services",
+        "skills": ["finance", "excel", "data analysis", "consulting", "accounting"],
+        "degrees": ["B.Com", "BBA", "MBA", "CA", "B.Tech"],
+        "location": "Any"
+    },
+    {
+        "name": "KPMG",
+        "sector": "Consulting and Professional Services",
+        "skills": ["accounting", "finance", "excel", "audit", "data analysis"],
+        "degrees": ["B.Com", "BBA", "MBA", "CA", "B.Tech"],
+        "location": "Any"
+    },
+    {
+        "name": "PwC India",
+        "sector": "Consulting and Professional Services",
+        "skills": ["finance", "audit", "accounting", "excel", "consulting"],
+        "degrees": ["B.Com", "BBA", "MBA", "CA", "B.Tech"],
+        "location": "Any"
+    },
+    {
+        "name": "Amazon",
+        "sector": "E-Commerce and Technology",
+        "skills": ["python", "java", "sql", "data analysis", "cloud"],
+        "degrees": ["B.Tech", "BE", "BCA", "MCA", "MBA"],
+        "location": "Any"
+    },
+    {
+        "name": "Microsoft",
+        "sector": "Technology",
+        "skills": ["python", "c++", "java", "azure", "machine learning"],
+        "degrees": ["B.Tech", "BE", "BCA", "MCA"],
+        "location": "Any"
+    },
+    {
+        "name": "Google",
+        "sector": "Technology",
+        "skills": ["python", "java", "c++", "machine learning", "cloud"],
+        "degrees": ["B.Tech", "BE", "BCA", "MCA"],
+        "location": "Any"
+    },
+    {
+        "name": "IBM",
+        "sector": "Technology and Consulting",
+        "skills": ["python", "java", "cloud", "ai", "data science"],
+        "degrees": ["B.Tech", "BE", "BCA", "MCA"],
+        "location": "Any"
+    },
+    {
+        "name": "Oracle",
+        "sector": "Enterprise Technology",
+        "skills": ["java", "sql", "database", "cloud", "python"],
+        "degrees": ["B.Tech", "BE", "BCA", "MCA"],
+        "location": "Any"
+    },
+    {
+        "name": "SAP",
+        "sector": "Enterprise Software",
+        "skills": ["sap", "sql", "java", "business analysis", "erp"],
+        "degrees": ["B.Tech", "BE", "BCA", "BBA", "MBA"],
+        "location": "Any"
+    },
+    {
+        "name": "Salesforce",
+        "sector": "Cloud Software",
+        "skills": ["salesforce", "apex", "sql", "cloud", "crm"],
+        "degrees": ["B.Tech", "BE", "BCA", "MCA", "BBA"],
+        "location": "Any"
+    },
+    {
+        "name": "Adobe",
+        "sector": "Software and Technology",
+        "skills": ["java", "c++", "python", "ui design", "javascript"],
+        "degrees": ["B.Tech", "BE", "BCA", "MCA"],
+        "location": "Any"
+    },
+    {
+        "name": "NVIDIA",
+        "sector": "Semiconductors and AI",
+        "skills": ["python", "c++", "machine learning", "deep learning", "cuda"],
+        "degrees": ["B.Tech", "BE", "M.Tech", "MCA"],
+        "location": "Any"
+    },
+    {
+        "name": "Intel",
+        "sector": "Semiconductors",
+        "skills": ["c++", "python", "embedded systems", "electronics", "computer architecture"],
+        "degrees": ["B.Tech", "BE", "M.Tech"],
+        "location": "Any"
+    },
+    {
+        "name": "Qualcomm",
+        "sector": "Semiconductors and Telecommunications",
+        "skills": ["c++", "embedded systems", "5g", "electronics", "python"],
+        "degrees": ["B.Tech", "BE", "M.Tech"],
+        "location": "Any"
+    },
+    {
+        "name": "Flipkart",
+        "sector": "E-Commerce",
+        "skills": ["python", "java", "sql", "data analysis", "marketing"],
+        "degrees": ["B.Tech", "BE", "BCA", "BBA", "MBA"],
+        "location": "Any"
+    },
+    {
+        "name": "Myntra",
+        "sector": "E-Commerce and Fashion Technology",
+        "skills": ["python", "sql", "marketing", "data analysis", "web development"],
+        "degrees": ["B.Tech", "BE", "BCA", "BBA", "MBA"],
+        "location": "Any"
+    },
+    {
+        "name": "Swiggy",
+        "sector": "Food Technology and E-Commerce",
+        "skills": ["python", "sql", "data analysis", "marketing", "operations"],
+        "degrees": ["B.Tech", "BE", "BCA", "BBA", "MBA"],
+        "location": "Any"
+    },
+    {
+        "name": "Zomato",
+        "sector": "Food Technology and E-Commerce",
+        "skills": ["python", "sql", "data analysis", "marketing", "business analytics"],
+        "degrees": ["B.Tech", "BE", "BCA", "BBA", "MBA"],
+        "location": "Any"
+    },
+    {
+        "name": "Paytm",
+        "sector": "FinTech",
+        "skills": ["java", "python", "sql", "finance", "data analysis"],
+        "degrees": ["B.Tech", "BE", "BCA", "B.Com", "MBA"],
+        "location": "Any"
+    },
+    {
+        "name": "Razorpay",
+        "sector": "FinTech",
+        "skills": ["python", "java", "sql", "payments", "fintech"],
+        "degrees": ["B.Tech", "BE", "BCA", "B.Com", "MBA"],
+        "location": "Any"
+    },
+    {
+        "name": "PhonePe",
+        "sector": "FinTech",
+        "skills": ["java", "python", "sql", "finance", "payments"],
+        "degrees": ["B.Tech", "BE", "BCA", "B.Com", "MBA"],
+        "location": "Any"
+    },
+    {
+        "name": "Jio Platforms",
+        "sector": "Telecommunications and Technology",
+        "skills": ["python", "java", "cloud", "networking", "data science"],
+        "degrees": ["B.Tech", "BE", "BCA", "MCA"],
+        "location": "Any"
+    },
+    {
+        "name": "Reliance Industries",
+        "sector": "Conglomerate",
+        "skills": ["finance", "data analysis", "marketing", "operations", "excel"],
+        "degrees": ["B.Tech", "B.Com", "BBA", "MBA", "BA"],
+        "location": "Any"
+    },
+    {
+        "name": "Tata Motors",
+        "sector": "Automotive",
+        "skills": ["mechanical engineering", "automotive", "cad", "manufacturing", "design"],
+        "degrees": ["B.Tech", "BE", "M.Tech", "MBA"],
+        "location": "Any"
+    },
+    {
+        "name": "Mahindra & Mahindra",
+        "sector": "Automotive",
+        "skills": ["mechanical engineering", "automotive", "cad", "manufacturing", "operations"],
+        "degrees": ["B.Tech", "BE", "M.Tech", "MBA"],
+        "location": "Any"
+    },
+    {
+        "name": "Larsen & Toubro (L&T)",
+        "sector": "Engineering and Construction",
+        "skills": ["civil engineering", "mechanical engineering", "project management", "cad", "construction"],
+        "degrees": ["B.Tech", "BE", "M.Tech", "MBA"],
+        "location": "Any"
+    },
+    {
+        "name": "Adani Group",
+        "sector": "Infrastructure and Energy",
+        "skills": ["finance", "engineering", "operations", "excel", "project management"],
+        "degrees": ["B.Tech", "BE", "B.Com", "BBA", "MBA"],
+        "location": "Any"
+    },
+    {
+        "name": "Indian Oil Corporation (IOCL)",
+        "sector": "Oil and Gas",
+        "skills": ["chemical engineering", "mechanical engineering", "operations", "finance", "safety"],
+        "degrees": ["B.Tech", "BE", "M.Tech", "B.Com"],
+        "location": "Any"
+    },
+    {
+        "name": "ONGC",
+        "sector": "Oil and Gas",
+        "skills": ["petroleum engineering", "mechanical engineering", "geology", "operations", "data analysis"],
+        "degrees": ["B.Tech", "BE", "M.Tech", "M.Sc"],
+        "location": "Any"
+    },
+    {
+        "name": "Bharat Electronics Limited (BEL)",
+        "sector": "Defence Electronics",
+        "skills": ["electronics", "embedded systems", "communication", "python", "c++"],
+        "degrees": ["B.Tech", "BE", "M.Tech"],
+        "location": "Any"
+    },
+    {
+        "name": "ISRO",
+        "sector": "Space Research",
+        "skills": ["aerospace", "electronics", "python", "c++", "research"],
+        "degrees": ["B.Tech", "BE", "M.Tech", "M.Sc"],
+        "location": "Any"
+    },
+    {
+        "name": "DRDO",
+        "sector": "Defence Research",
+        "skills": ["electronics", "mechanical engineering", "python", "research", "embedded systems"],
+        "degrees": ["B.Tech", "BE", "M.Tech", "M.Sc"],
+        "location": "Any"
+    },
+    {
+        "name": "National Informatics Centre (NIC)",
+        "sector": "Government Information Technology",
+        "skills": ["python", "java", "web development", "database", "cybersecurity"],
+        "degrees": ["B.Tech", "BE", "BCA", "MCA"],
+        "location": "Any"
+    },
+    {
+        "name": "Indian Railways",
+        "sector": "Transportation and Government",
+        "skills": ["mechanical engineering", "civil engineering", "electronics", "operations", "management"],
+        "degrees": ["B.Tech", "BE", "BBA", "MBA"],
+        "location": "Any"
+    },
+    {
+        "name": "LIC of India",
+        "sector": "Insurance",
+        "skills": ["finance", "insurance", "excel", "accounting", "customer service"],
+        "degrees": ["B.Com", "BBA", "BA", "MBA"],
+        "location": "Any"
+    },
+    {
+        "name": "Hindustan Aeronautics Limited (HAL)",
+        "sector": "Aerospace and Defence",
+        "skills": ["aerospace engineering", "mechanical engineering", "electronics", "cad", "manufacturing"],
+        "degrees": ["B.Tech", "BE", "M.Tech"],
+        "location": "Any"
+    },
+    {
+        "name": "Maruti Suzuki",
+        "sector": "Automotive",
+        "skills": ["mechanical engineering", "automotive", "manufacturing", "cad", "quality control"],
+        "degrees": ["B.Tech", "BE", "M.Tech", "MBA"],
+        "location": "Any"
+    },
+    {
+        "name": "Asian Paints",
+        "sector": "Consumer Goods",
+        "skills": ["marketing", "sales", "finance", "data analysis", "operations"],
+        "degrees": ["BBA", "B.Com", "BA", "MBA", "B.Tech"],
+        "location": "Any"
+    },
+    {
+        "name": "Hindustan Unilever (HUL)",
+        "sector": "FMCG",
+        "skills": ["marketing", "sales", "finance", "data analysis", "supply chain"],
+        "degrees": ["BBA", "B.Com", "BA", "MBA", "B.Tech"],
+        "location": "Any"
+    }
+]

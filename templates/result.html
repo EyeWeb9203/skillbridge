@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Match Results - PMIS</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #e8e8e8; color: #333; }
+        .tricolor-ribbon { height: 6px; background: linear-gradient(to right, #FF9933 33.33%, #FFFFFF 33.33%, #FFFFFF 66.66%, #138808 66.66%); }
+        .header { background-color: #002147; color: white; padding: 15px 40px; border-bottom: 4px solid #FF9933; }
+        .header h1 { margin: 0; font-size: 20px; }
+        .header p { margin: 2px 0 0 0; font-size: 13px; color: #cce6ff; }
+        
+        .main-container { max-width: 800px; margin: 30px auto; background: white; padding: 30px; border: 1px solid #ccc; }
+        .page-title { border-bottom: 2px solid #002147; padding-bottom: 10px; margin-top: 0; color: #002147; }
+        
+        .success-msg { background: #d4edda; border: 1px solid #c3e6cb; color: #155724; padding: 15px; margin-bottom: 20px; font-weight: bold;}
+
+        .match-card {
+            border: 1px solid #ddd; border-left: 5px solid #002147; margin-bottom: 20px; padding: 20px; background: #fcfcfc;
+        }
+        .match-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+        .company-name { font-size: 20px; font-weight: bold; color: #002147; margin: 0; }
+        .match-score { font-size: 24px; font-weight: bold; color: #138808; }
+        
+        .match-details { font-size: 14px; color: #555; margin-bottom: 10px; }
+        .skills-matched { font-size: 13px; color: #0056b3; font-style: italic; }
+
+        .btn-back {
+            display: inline-block; background: #002147; color: white; padding: 10px 20px; text-decoration: none; margin-top: 20px; font-weight: bold;
+        }
+        .footer { text-align: center; padding: 20px; font-size: 12px; color: #666; border-top: 1px solid #ccc; margin-top: 40px; background: #f4f4f4;}
+    </style>
+</head>
+<body>
+
+    <div class="tricolor-ribbon"></div>
+    <div class="header">
+        <h1>PRIME MINISTER'S INTERNSHIP SCHEME</h1>
+        <p>Ministry of Corporate Affairs | Government of India</p>
+    </div>
+
+    <div class="main-container">
+        <h2 class="page-title">AI Allocation Results</h2>
+        
+        <div class="success-msg">
+            ✅ Profile processed successfully for <strong>{{ name }}</strong>. The AI Engine has analyzed 500+ partner companies and identified your top matches.
+        </div>
+
+        {% for match in matches %}
+        <div class="match-card">
+            <div class="match-header">
+                <h3 class="company-name">{{ match.company }}</h3>
+                <div class="match-score">{{ match.score }}% Match</div>
+            </div>
+            <div class="match-details">
+                <strong>Sector:</strong> {{ match.sector }} | <strong>Location:</strong> {{ match.location }}
+            </div>
+            <div class="skills-matched">
+                <strong>AI Reason:</strong> Strong alignment in skills: {{ match.matched_skills | join(', ') | title }}.
+            </div>
+            <br>
+            <button style="background: #138808; color: white; border: none; padding: 8px 15px; cursor: pointer; font-weight: bold;">Apply via PMIS Portal</button>
+        </div>
+        {% endfor %}
+
+        {% if not matches %}
+            <p>No suitable matches found. Please update your skills and try again.</p>
+        {% endif %}
+
+        <a href="/" class="btn-back">← Recalculate / Go Back</a>
+    </div>
+
+    <div class="footer">
+        Copyright © 2026 Ministry of Corporate Affairs, Government of India. All Rights Reserved.
+    </div>
+
+</body>
+</html>
