@@ -2,6 +2,8 @@ import sqlite3
 from functools import wraps
 from pathlib import Path
 import json
+import os
+from werkzeug.utils import secure_filename
 
 from flask import Flask, render_template, request, redirect, url_for, session, jsonify, g
 import firebase_admin
@@ -17,6 +19,8 @@ app = Flask(__name__)
 app.secret_key = "268bc7bb5a78de350d0280331af78a7a23d4cf671458b37f2816036503c71115"
 
 DB_PATH = Path(__file__).parent / "nsb.db"
+RESUME_UPLOAD_FOLDER = Path(__file__).parent / "static" / "uploads" / "resumes"
+RESUME_UPLOAD_FOLDER.mkdir(parents=True, exist_ok=True)
 
 # Point this at the service account JSON from Firebase console
 cred = credentials.Certificate("serviceAccountKey.json")
@@ -64,7 +68,8 @@ def init_db():
             preferred_locations TEXT,
             internship_mode TEXT,
             availability TEXT,
-            resume_url TEXT
+            resume_url TEXT,
+            resume_pdf TEXT
         )
         """
     )
@@ -214,29 +219,41 @@ def profile_page():
         availability = request.form.get("availability", "Immediate (Full-time)").strip()
         resume_url = request.form.get("resume_url", "").strip()
 
+        resume_pdf_file = request.files.get("resume_pdf")
+        resume_pdf_name = None
+        if resume_pdf_file and resume_pdf_file.filename:
+            if resume_pdf_file.filename.lower().endswith(".pdf"):
+                safe_name = secure_filename(resume_pdf_file.filename)
+                stored_name = f"{uid}_{safe_name}"
+                resume_pdf_file.save(RESUME_UPLOAD_FOLDER / stored_name)
+                resume_pdf_name = safe_name
+
         try:
-            upsert_profile(
-                uid,
-                email=session.get("email", ""),
-                name=name,
-                phone=phone,
-                gender=gender,
-                state_city=state_city,
-                degree=degree,
-                field_of_study=field_of_study,
-                graduation_year=graduation_year,
-                cgpa_percentage=cgpa_percentage,
-                skills=skills,
-                primary_skills=skills,
-                soft_skills=soft_skills,
-                experience_level=experience_level,
-                preferred_sectors=preferred_sectors,
-                location=location,
-                preferred_locations=location,
-                internship_mode=internship_mode,
-                availability=availability,
-                resume_url=resume_url
-            )
+            profile_data = {
+                "email": session.get("email", ""),
+                "name": name,
+                "phone": phone,
+                "gender": gender,
+                "state_city": state_city,
+                "degree": degree,
+                "field_of_study": field_of_study,
+                "graduation_year": graduation_year,
+                "cgpa_percentage": cgpa_percentage,
+                "skills": skills,
+                "primary_skills": skills,
+                "soft_skills": soft_skills,
+                "experience_level": experience_level,
+                "preferred_sectors": preferred_sectors,
+                "location": location,
+                "preferred_locations": location,
+                "internship_mode": internship_mode,
+                "availability": availability,
+                "resume_url": resume_url
+            }
+            if resume_pdf_name:
+                profile_data["resume_pdf"] = resume_pdf_name
+
+            upsert_profile(uid, **profile_data)
             return redirect(url_for("home", status="saved"))
         except Exception as e:
             print("Error saving profile:", e)
@@ -244,6 +261,32 @@ def profile_page():
 
     profile = get_profile(uid) or {}
     return render_template("profile.html", profile=profile, saved=False)
+
+
+@app.route("/api/upload_resume", methods=["POST"])
+@login_required
+def upload_resume_api():
+    uid = session["uid"]
+    if "resume_pdf" not in request.files:
+        return jsonify({"error": "No file part in request"}), 400
+    
+    file = request.files["resume_pdf"]
+    if file.filename == "":
+        return jsonify({"error": "No selected file"}), 400
+    
+    if not file.filename.lower().endswith(".pdf"):
+        return jsonify({"error": "Only PDF files are supported"}), 400
+
+    safe_name = secure_filename(file.filename)
+    stored_name = f"{uid}_{safe_name}"
+    file.save(RESUME_UPLOAD_FOLDER / stored_name)
+    upsert_profile(uid, resume_pdf=safe_name)
+
+    return jsonify({
+        "status": "uploaded",
+        "filename": safe_name,
+        "size": os.path.getsize(RESUME_UPLOAD_FOLDER / stored_name)
+    })
 
 
 @app.route("/courses")
